@@ -1,0 +1,29 @@
+{
+	"id": "a38a516e-4b52-4509-b535-d5a919e9ebdb",
+	"createdAt": "2021-05-24T07:53:44.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "269bf5c6-d65b-43d8-9375-4c3322d2fb4d",
+			"fieldName": "type",
+			"fieldType": "smallint",
+			"description": "Type",
+			"isUnique": true
+		},
+		{
+			"id": "1fa00992-439e-4eea-83a7-5f7d3b7d3ef3",
+			"fieldName": "name",
+			"fieldType": "text",
+			"description": "Name"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "crm_account_type",
+	"description": "Account Type",
+	"ver": "21.5.24.957",
+	"enableAudit": false,
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

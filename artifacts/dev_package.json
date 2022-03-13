@@ -1,0 +1,65 @@
+{
+	"id": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
+	"createdAt": "2021-05-24T07:51:32.000Z",
+	"createdBy": "admin",
+	"git": {
+		"targetServers": [],
+		"testServers": [],
+		"remote": "https://github.com/OleAndreHaugen/crm-showcase",
+		"path": "C:\\Planet9\\crm-showcase"
+	},
+	"name": "CRM",
+	"description": "Mini-CRM",
+	"ver": "22.3.13.929",
+	"enableCICD": true,
+	"apps": [],
+	"api": [],
+	"odataMock": [],
+	"odataSource": [],
+	"dictionary": [
+		{
+			"id": "9774916e-6979-46ee-a393-e173d2e2db2f",
+			"name": "crm_industry",
+			"description": "Industry",
+			"ver": "21.5.24.953"
+		},
+		{
+			"id": "a38a516e-4b52-4509-b535-d5a919e9ebdb",
+			"name": "crm_account_type",
+			"description": "Account Type",
+			"ver": "21.5.24.957"
+		},
+		{
+			"id": "a790f7db-d11f-4778-90d6-13b60852be66",
+			"name": "crm_account",
+			"description": "Account",
+			"ver": "21.9.7.169"
+		},
+		{
+			"id": "b64eb827-09a4-4288-905e-6988cb22c3b2",
+			"name": "crm_country",
+			"description": "Country",
+			"ver": "21.7.22.1215"
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"wf_definition": [],
+	"department": [],
+	"script_scheduler": [],
+	"connector": []
+}
