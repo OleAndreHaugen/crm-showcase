@@ -58,20 +58,13 @@
 			"fieldType": "smallint",
 			"description": "Industry ",
 			"isNullable": true
-		},
-		{
-			"id": "92f06a0c-b290-4796-e446-65d72592d216",
-			"fieldName": "ispartner",
-			"fieldType": "boolean",
-			"description": "Is Partner",
-			"isNullable": true
 		}
 	],
 	"indices": [],
 	"foreignKeys": [],
 	"name": "crm_account",
-	"description": "Account",
-	"ver": "21.9.7.169",
+	"description": "CRM: Account",
+	"ver": "22.3.13.933",
 	"enableAudit": false,
 	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
 	"rolesRead": [],

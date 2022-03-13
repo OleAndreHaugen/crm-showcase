@@ -10,7 +10,7 @@
 	},
 	"name": "CRM",
 	"description": "Mini-CRM",
-	"ver": "22.3.13.929",
+	"ver": "22.3.13.1051",
 	"enableCICD": true,
 	"apps": [],
 	"api": [],
@@ -18,28 +18,46 @@
 	"odataSource": [],
 	"dictionary": [
 		{
+			"id": "0483f8eb-8c16-4903-83fd-f6208b625595",
+			"name": "crm_contact",
+			"description": "CRM: Contact",
+			"ver": "22.3.13.935"
+		},
+		{
+			"id": "48986b3f-d383-4ede-8f5f-a7069a058796",
+			"name": "crm_opportunity",
+			"description": "CRM_Opportunity",
+			"ver": "22.3.13.938"
+		},
+		{
 			"id": "9774916e-6979-46ee-a393-e173d2e2db2f",
 			"name": "crm_industry",
-			"description": "Industry",
-			"ver": "21.5.24.953"
+			"description": "CRM: Industry",
+			"ver": "22.3.13.944"
 		},
 		{
 			"id": "a38a516e-4b52-4509-b535-d5a919e9ebdb",
-			"name": "crm_account_type",
-			"description": "Account Type",
-			"ver": "21.5.24.957"
+			"name": "crm_type",
+			"description": "CRM: Account Type",
+			"ver": "22.3.13.944"
 		},
 		{
 			"id": "a790f7db-d11f-4778-90d6-13b60852be66",
 			"name": "crm_account",
-			"description": "Account",
-			"ver": "21.9.7.169"
+			"description": "CRM: Account",
+			"ver": "22.3.13.933"
 		},
 		{
 			"id": "b64eb827-09a4-4288-905e-6988cb22c3b2",
 			"name": "crm_country",
-			"description": "Country",
-			"ver": "21.7.22.1215"
+			"description": "CRM: Country",
+			"ver": "22.3.13.944"
+		},
+		{
+			"id": "e7c94f57-8a66-4f3d-98dd-7a3a45c97524",
+			"name": "crm_stage",
+			"description": "CRM: Stage",
+			"ver": "22.3.13.1020"
 		}
 	],
 	"jsclass": [],
@@ -47,12 +65,133 @@
 	"theme": [],
 	"pdf": [],
 	"rulesengine": [],
-	"reports": [],
+	"reports": [
+		{
+			"id": "2d582f25-ea87-40c1-93bb-0b2cc8d69ec6",
+			"name": "crm_account_country_chart",
+			"description": "",
+			"ver": "22.3.13.1048",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "3961099d-b524-43fa-9058-04220f801c75",
+			"name": "crm_master_stages",
+			"description": "",
+			"ver": "22.3.13.1021",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "3d5e3139-4cce-4ac0-8db8-2cf95d117f2f",
+			"name": "crm_opportunity_child",
+			"description": "",
+			"ver": "22.3.13.1032",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "4a7331c9-42a4-4aa4-9249-9b08cd5d1d8d",
+			"name": "crm_opportunity_list",
+			"description": "",
+			"ver": "22.3.13.1049",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "4d47bc5b-0b97-4e4e-860a-04951477bd43",
+			"name": "crm_account_list",
+			"description": "",
+			"ver": "22.3.13.1038",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "724a49e8-3bb5-4ac4-807c-8ce4337a7e68",
+			"name": "crm_account_edit",
+			"description": "",
+			"ver": "22.3.13.1030",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "9017f1b9-4561-42a1-8535-c2a27094cecc",
+			"name": "crm_master_industry",
+			"description": "",
+			"ver": "22.3.13.1041",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "b41c259f-ee5a-459d-9350-9cd21d3f8616",
+			"name": "crm_master_type",
+			"description": "",
+			"ver": "22.3.13.103",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "b555aed7-9277-416d-a8be-37464fa16903",
+			"name": "crm_master_country",
+			"description": "",
+			"ver": "22.3.13.1039",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "b8a128c2-e75e-448c-815c-fd25d1faf9c2",
+			"name": "crm_opportunity_edit",
+			"description": "",
+			"ver": "22.3.13.1035",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "c3d13886-6f76-452d-8edd-f816fb313362",
+			"name": "crm_opportunity_chart",
+			"description": "",
+			"ver": "22.3.13.1046",
+			"application": "planet9_adaptive_tile_chart"
+		}
+	],
 	"api_authentication": [],
 	"api_group": [],
-	"tile": [],
-	"category": [],
-	"launchpad": [],
+	"tile": [
+		{
+			"id": "465b91b2-4b52-4c63-926a-070e3930ee1a",
+			"description": null,
+			"name": "CRM: Account"
+		},
+		{
+			"id": "61e98a37-aa78-4899-8b7f-90195c9f0010",
+			"description": null,
+			"name": "CRM: Stages"
+		},
+		{
+			"id": "6ab0dd8f-244b-44aa-a307-119dbc458cbb",
+			"description": null,
+			"name": "CRM: Opportunity"
+		},
+		{
+			"id": "a84b3832-0869-4628-a6f7-28e825fb596e",
+			"description": null,
+			"name": "CRM: Countries"
+		},
+		{
+			"id": "da7bf75f-2c9e-4457-a43a-65be77322405",
+			"description": null,
+			"name": "CRM: Industry"
+		}
+	],
+	"category": [
+		{
+			"id": "8221ec94-7ff2-450a-b4a2-fde2ba45d378",
+			"description": null,
+			"name": "CRM"
+		},
+		{
+			"id": "eb8bd68b-cfe8-448c-94ef-66dea60d5471",
+			"description": null,
+			"name": "CRM Master Data"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "0f073cab-d3dc-4790-95a0-583795127284",
+			"name": "CRM",
+			"description": "CRM"
+		}
+	],
 	"certificates": [],
 	"role": [],
 	"systems": [],
@@ -61,5 +200,48 @@
 	"wf_definition": [],
 	"department": [],
 	"script_scheduler": [],
-	"connector": []
+	"connector": [
+		{
+			"id": "18578381-3289-4c42-8590-e7fb6f107072",
+			"updatedAt": "2022-03-13T08:42:05.000Z",
+			"changedBy": "ole-andre.haugen@neptune-software.com",
+			"name": "CRM Stages",
+			"description": "Master Data - Stages"
+		},
+		{
+			"id": "1de2443a-8194-4ab7-8f10-c1b98bc521aa",
+			"updatedAt": "2022-03-13T09:01:02.000Z",
+			"changedBy": "ole-andre.haugen@neptune-software.com",
+			"name": "CRM Types",
+			"description": "Master Data - Types"
+		},
+		{
+			"id": "37ee276f-e113-4b12-a665-0612fef24c24",
+			"updatedAt": "2022-03-13T09:41:03.000Z",
+			"changedBy": "ole-andre.haugen@neptune-software.com",
+			"name": "CRM Industries",
+			"description": "Master Data - Industries"
+		},
+		{
+			"id": "53baf1eb-0a51-4f65-a656-9cac96ab6eab",
+			"updatedAt": "2022-03-13T08:41:31.000Z",
+			"changedBy": "ole-andre.haugen@neptune-software.com",
+			"name": "CRM Accounts",
+			"description": "Accounts"
+		},
+		{
+			"id": "bd3ce410-4327-4a66-8c4e-9ab7daa80d73",
+			"updatedAt": "2022-03-13T08:41:43.000Z",
+			"changedBy": "ole-andre.haugen@neptune-software.com",
+			"name": "CRM Country",
+			"description": "Master Data - Country"
+		},
+		{
+			"id": "c75fe2a7-c587-4f46-b0d6-c56697f7d146",
+			"updatedAt": "2022-03-13T08:41:19.000Z",
+			"changedBy": "ole-andre.haugen@neptune-software.com",
+			"name": "CRM Opportunity",
+			"description": "Opportunity"
+		}
+	]
 }

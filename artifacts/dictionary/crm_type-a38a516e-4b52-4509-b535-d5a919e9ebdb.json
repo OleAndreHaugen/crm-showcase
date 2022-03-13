@@ -14,14 +14,15 @@
 			"id": "1fa00992-439e-4eea-83a7-5f7d3b7d3ef3",
 			"fieldName": "name",
 			"fieldType": "text",
-			"description": "Name"
+			"description": "Name",
+			"isNullable": true
 		}
 	],
 	"indices": [],
 	"foreignKeys": [],
-	"name": "crm_account_type",
-	"description": "Account Type",
-	"ver": "21.5.24.957",
+	"name": "crm_type",
+	"description": "CRM: Account Type",
+	"ver": "22.3.13.944",
 	"enableAudit": false,
 	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
 	"rolesRead": [],
