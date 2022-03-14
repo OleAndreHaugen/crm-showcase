@@ -6,11 +6,17 @@
 		"targetServers": [],
 		"testServers": [],
 		"remote": "https://github.com/OleAndreHaugen/crm-showcase",
-		"path": "C:\\Planet9\\crm-showcase"
+		"path": "C:\\Planet9\\crm-showcase",
+		"readme": [
+			"==OBJECT STRING==",
+			"# crm-showcase\r",
+			"Showcase Adaptive Framework and CI/CD \r",
+			"mini-crm"
+		]
 	},
 	"name": "CRM",
 	"description": "Mini-CRM",
-	"ver": "22.3.13.1051",
+	"ver": "22.3.14.822",
 	"enableCICD": true,
 	"apps": [],
 	"api": [],
