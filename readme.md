@@ -1,4 +1,4 @@
-# crm-showcase
+# CRM Showcase
 Showcase Adaptive Framework and CI/CD 
 
 ## CRM Main Functions
@@ -12,3 +12,7 @@ Showcase Adaptive Framework and CI/CD
 - Industries
 - Stages
 - Type
+
+
+## Setup
+Includes Tile/Tile Group/Launchpad setup

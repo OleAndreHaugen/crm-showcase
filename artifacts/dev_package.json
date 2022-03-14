@@ -9,7 +9,7 @@
 		"path": "C:\\Planet9\\crm-showcase",
 		"readme": [
 			"==OBJECT STRING==",
-			"# crm-showcase\r",
+			"# CRM Showcase\r",
 			"Showcase Adaptive Framework and CI/CD \r",
 			"\r",
 			"## CRM Main Functions\r",
@@ -23,12 +23,15 @@
 			"- Industries\r",
 			"- Stages\r",
 			"- Type\r",
-			""
+			"\r",
+			"\r",
+			"## Setup\r",
+			"Includes Tile/Tile Group/Launchpad setup"
 		]
 	},
 	"name": "CRM",
 	"description": "Mini-CRM",
-	"ver": "22.3.14.826",
+	"ver": "22.3.14.827",
 	"enableCICD": true,
 	"apps": [],
 	"api": [],
@@ -178,7 +181,7 @@
 			"id": "c3d13886-6f76-452d-8edd-f816fb313362",
 			"name": "crm_opportunity_chart",
 			"description": "",
-			"ver": "22.3.14.723",
+			"ver": "22.3.14.840",
 			"application": "planet9_adaptive_tile_chart"
 		},
 		{
