@@ -6,7 +6,7 @@
 		"targetServers": [],
 		"testServers": [],
 		"remote": "https://github.com/OleAndreHaugen/crm-showcase",
-		"path": "C:\\Planet9\\crm-showcase",
+		"path": "C:\\Planet9\\crm-showcase2",
 		"readme": [
 			"==OBJECT STRING==",
 			"# CRM Showcase\r",
@@ -26,12 +26,14 @@
 			"\r",
 			"\r",
 			"## Setup\r",
-			"Includes Tile/Tile Group/Launchpad setup"
+			"Includes Tile/Tile Group/Launchpad setup\r",
+			"\r",
+			""
 		]
 	},
 	"name": "CRM",
 	"description": "Mini-CRM",
-	"ver": "22.3.14.827",
+	"ver": "22.3.14.91",
 	"enableCICD": true,
 	"apps": [],
 	"api": [],
