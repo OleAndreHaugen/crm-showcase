@@ -54,6 +54,12 @@
 			"ver": "22.3.13.944"
 		},
 		{
+			"id": "ba6bae23-8c88-4ea6-8018-742ec95f8d90",
+			"name": "crm_currency",
+			"description": "CRM: Currency",
+			"ver": "22.3.14.737"
+		},
+		{
 			"id": "e7c94f57-8a66-4f3d-98dd-7a3a45c97524",
 			"name": "crm_stage",
 			"description": "CRM: Stage",
@@ -67,10 +73,17 @@
 	"rulesengine": [],
 	"reports": [
 		{
+			"id": "2460074d-5b67-471a-9398-01427a563809",
+			"name": "crm_contact_child",
+			"description": "",
+			"ver": "22.3.14.84",
+			"application": "planet9_adaptive_list"
+		},
+		{
 			"id": "2d582f25-ea87-40c1-93bb-0b2cc8d69ec6",
 			"name": "crm_account_country_chart",
 			"description": "",
-			"ver": "22.3.13.1048",
+			"ver": "22.3.14.736",
 			"application": "planet9_adaptive_tile_chart"
 		},
 		{
@@ -84,14 +97,21 @@
 			"id": "3d5e3139-4cce-4ac0-8db8-2cf95d117f2f",
 			"name": "crm_opportunity_child",
 			"description": "",
-			"ver": "22.3.13.1032",
+			"ver": "22.3.14.721",
 			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "476af17e-e699-4771-bc03-76a573267177",
+			"name": "crm_contact_edit",
+			"description": "",
+			"ver": "22.3.14.757",
+			"application": "planet9_adaptive_edit"
 		},
 		{
 			"id": "4a7331c9-42a4-4aa4-9249-9b08cd5d1d8d",
 			"name": "crm_opportunity_list",
 			"description": "",
-			"ver": "22.3.13.1049",
+			"ver": "22.3.14.79",
 			"application": "planet9_adaptive_list"
 		},
 		{
@@ -105,7 +125,7 @@
 			"id": "724a49e8-3bb5-4ac4-807c-8ce4337a7e68",
 			"name": "crm_account_edit",
 			"description": "",
-			"ver": "22.3.13.1030",
+			"ver": "22.3.14.81",
 			"application": "planet9_adaptive_edit"
 		},
 		{
@@ -133,15 +153,22 @@
 			"id": "b8a128c2-e75e-448c-815c-fd25d1faf9c2",
 			"name": "crm_opportunity_edit",
 			"description": "",
-			"ver": "22.3.13.1035",
+			"ver": "22.3.14.82",
 			"application": "planet9_adaptive_edit"
 		},
 		{
 			"id": "c3d13886-6f76-452d-8edd-f816fb313362",
 			"name": "crm_opportunity_chart",
 			"description": "",
-			"ver": "22.3.13.1046",
+			"ver": "22.3.14.723",
 			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "cc73c51f-8a08-4f90-b556-9c1a9af85670",
+			"name": "crm_master_currency",
+			"description": "",
+			"ver": "22.3.14.753",
+			"application": "planet9_adaptive_list"
 		}
 	],
 	"api_authentication": [],
@@ -171,6 +198,11 @@
 			"id": "da7bf75f-2c9e-4457-a43a-65be77322405",
 			"description": null,
 			"name": "CRM: Industry"
+		},
+		{
+			"id": "dae73034-7b13-41d2-b600-58a8db27bd21",
+			"description": null,
+			"name": "CRM: Currencies"
 		}
 	],
 	"category": [
@@ -189,7 +221,7 @@
 		{
 			"id": "0f073cab-d3dc-4790-95a0-583795127284",
 			"name": "CRM",
-			"description": "CRM"
+			"description": "CRM Showcase"
 		}
 	],
 	"certificates": [],
@@ -230,6 +262,13 @@
 			"description": "Accounts"
 		},
 		{
+			"id": "56f88179-78da-4f7c-a42f-c65c76d457be",
+			"updatedAt": "2022-03-14T06:55:16.000Z",
+			"changedBy": "ole-andre.haugen@neptune-software.com",
+			"name": "CRM Contacts",
+			"description": "Contacts"
+		},
+		{
 			"id": "bd3ce410-4327-4a66-8c4e-9ab7daa80d73",
 			"updatedAt": "2022-03-13T08:41:43.000Z",
 			"changedBy": "ole-andre.haugen@neptune-software.com",
@@ -242,6 +281,13 @@
 			"changedBy": "ole-andre.haugen@neptune-software.com",
 			"name": "CRM Opportunity",
 			"description": "Opportunity"
+		},
+		{
+			"id": "d9074162-374f-43a4-bef6-6f03a4163427",
+			"updatedAt": "2022-03-14T06:38:16.000Z",
+			"changedBy": "ole-andre.haugen@neptune-software.com",
+			"name": "CRM Currency",
+			"description": "Master Data - Currency"
 		}
 	]
 }

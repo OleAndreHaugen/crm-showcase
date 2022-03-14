@@ -6,7 +6,7 @@
 		"properties": {
 			"report": {
 				"paginationRows": 10,
-				"updateTime": 0,
+				"updateTime": "1",
 				"initialGroupField": "stage"
 			},
 			"form": {
@@ -128,7 +128,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.3.13.1046",
+	"ver": "22.3.14.723",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_tile_chart",

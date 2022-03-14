@@ -42,7 +42,7 @@
 				"avatarIcon": "sap-icon://opportunities",
 				"_navigationCreate": {
 					"destinationType": "F",
-					"openAs": "P",
+					"openAs": "D",
 					"butType": "Accept",
 					"destinationTargetF": "b8a128c2-e75e-448c-815c-fd25d1faf9c2",
 					"keyField": [
@@ -51,7 +51,8 @@
 							"key": "accountid",
 							"value": ""
 						}
-					]
+					],
+					"dialogHeight": "800px"
 				},
 				"_navigationItemPress": {
 					"destinationType": "F",
@@ -298,7 +299,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.3.13.1032",
+	"ver": "22.3.14.721",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

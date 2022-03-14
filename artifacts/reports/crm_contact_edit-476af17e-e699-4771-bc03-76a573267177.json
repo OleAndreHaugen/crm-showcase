@@ -1,6 +1,6 @@
 {
-	"id": "b8a128c2-e75e-448c-815c-fd25d1faf9c2",
-	"createdAt": "2022-03-13T09:09:31.000Z",
+	"id": "476af17e-e699-4771-bc03-76a573267177",
+	"createdAt": "2022-03-14T06:55:43.000Z",
 	"createdBy": "ole-andre.haugen@neptune-software.com",
 	"settings": {
 		"properties": {
@@ -26,18 +26,14 @@
 				"enableTab3": false,
 				"enableTab4": false,
 				"enableTab5": false,
-				"title": "Opportunity",
-				"avatarIcon": "sap-icon://opportunities",
-				"subTitle": "Maintain"
+				"title": "Contact",
+				"subTitle": "Maintain",
+				"avatarIcon": "sap-icon://contacts"
 			},
 			"form": {
 				"enableCompact": false,
 				"enableCentered": true,
-				"titleLevel": "H3",
-				"columnsL": "2",
-				"columnsM": "1",
-				"labelSpanL": "",
-				"labelSpanM": ""
+				"titleLevel": "H3"
 			},
 			"table": {}
 		},
@@ -53,24 +49,14 @@
 				"type": "text"
 			},
 			{
-				"name": "description",
-				"label": "Description",
+				"name": "email",
+				"label": "eMail",
 				"type": "text"
 			},
 			{
-				"name": "value",
-				"label": "Value",
-				"type": "decimal"
-			},
-			{
-				"name": "currency",
-				"label": "Currency",
+				"name": "phone",
+				"label": "Phone",
 				"type": "text"
-			},
-			{
-				"name": "stage",
-				"label": "Stage",
-				"type": "smallint"
 			},
 			{
 				"name": "updatedAt",
@@ -100,13 +86,13 @@
 				"name": "accountid",
 				"text": "Account ID",
 				"fieldPos": 1,
+				"columnLabel": "General",
 				"type": "SingleSelectLookup",
 				"lookupTable": "crm_account",
 				"lookupFieldKey": "accountid",
 				"lookupFieldText": "name",
-				"required": true,
-				"columnLabel": "General",
-				"lookupShowOnlyText": true
+				"lookupShowOnlyText": true,
+				"required": true
 			},
 			{
 				"editable": true,
@@ -119,50 +105,23 @@
 			{
 				"editable": true,
 				"visible": true,
-				"name": "stage",
-				"text": "Stage",
-				"fieldPos": 3,
-				"type": "SingleSelectLookup",
-				"lookupTable": "crm_stage",
-				"lookupFieldKey": "stage",
-				"lookupFieldText": "name",
-				"lookupShowOnlyText": false
+				"name": "email",
+				"text": "eMail",
+				"fieldPos": 3
 			},
 			{
 				"editable": true,
 				"visible": true,
-				"name": "description",
-				"text": "Description",
-				"fieldPos": 4,
-				"columnLabel": "",
-				"type": "TextArea",
-				"textAreaRows": "4"
-			},
-			{
-				"editable": true,
-				"visible": true,
-				"name": "value",
-				"text": "Value",
-				"fieldPos": 5,
-				"columnLabel": "Amount"
-			},
-			{
-				"editable": true,
-				"visible": true,
-				"name": "currency",
-				"text": "Currency",
-				"fieldPos": 6,
-				"type": "SingleSelectLookup",
-				"lookupTable": "crm_currency",
-				"lookupFieldKey": "currency",
-				"lookupFieldText": "name"
+				"name": "phone",
+				"text": "Phone",
+				"fieldPos": 4
 			},
 			{
 				"editable": false,
 				"visible": true,
 				"name": "updatedAt",
 				"text": "Updated At",
-				"fieldPos": 7,
+				"fieldPos": 5,
 				"columnLabel": "Dates",
 				"type": "DateTimePicker"
 			},
@@ -171,12 +130,12 @@
 				"visible": true,
 				"name": "updatedBy",
 				"text": "Updated By",
-				"fieldPos": 8
+				"fieldPos": 6
 			}
 		],
 		"fieldsRun": [],
 		"defaultVariant": {
-			"id": "f0cfa063-3de5-4b90-81ad-de7a14638817",
+			"id": "a14ee274-56b9-429a-e16a-b06069bf40ca",
 			"colOrder": "key_a_to_z",
 			"rowOrder": "key_a_to_z",
 			"row": [],
@@ -186,15 +145,15 @@
 			"exclusions": {}
 		}
 	},
-	"name": "crm_opportunity_edit",
+	"name": "crm_contact_edit",
 	"description": "",
 	"group": "",
 	"type": "C",
-	"connectorid": "c75fe2a7-c587-4f46-b0d6-c56697f7d146",
+	"connectorid": "56f88179-78da-4f7c-a42f-c65c76d457be",
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.3.14.82",
+	"ver": "22.3.14.757",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",

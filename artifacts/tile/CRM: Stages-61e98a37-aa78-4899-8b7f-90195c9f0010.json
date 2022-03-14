@@ -10,7 +10,7 @@
 		}
 	},
 	"title": "Stages",
-	"subTitle": "Master Data",
+	"subTitle": "Maintain",
 	"description": null,
 	"categoryID": null,
 	"sort": null,
@@ -60,7 +60,7 @@
 	"helpText": null,
 	"helpEnabled": false,
 	"openClickTile": false,
-	"ver": "22.3.13.952",
+	"ver": "22.3.13.1053",
 	"actionWebApp": "",
 	"name": "CRM: Stages",
 	"cardWidth": null,

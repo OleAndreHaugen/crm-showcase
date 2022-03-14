@@ -15,13 +15,13 @@
 				"typeButtonSave": "Emphasized",
 				"tab0Text": "General",
 				"tab1Text": "Opportunities",
-				"tab2Text": "Tab 2",
+				"tab2Text": "Contacts",
 				"tab3Text": "Tab 3",
 				"tab4Text": "Tab 4",
 				"tab5Text": "Tab 5",
 				"enableClose": true,
 				"enableTab1": true,
-				"enableTab2": false,
+				"enableTab2": true,
 				"enableTab3": false,
 				"enableTab4": false,
 				"enableTab5": false,
@@ -33,6 +33,19 @@
 					"openAs": "P",
 					"butType": "Accept",
 					"destinationTargetF": "3d5e3139-4cce-4ac0-8db8-2cf95d117f2f",
+					"keyField": [
+						{
+							"fieldName": "accountid",
+							"key": "accountid",
+							"value": ""
+						}
+					]
+				},
+				"_tab2Nav": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "2460074d-5b67-471a-9398-01427a563809",
 					"keyField": [
 						{
 							"fieldName": "accountid",
@@ -223,7 +236,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.3.13.1030",
+	"ver": "22.3.14.81",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",
