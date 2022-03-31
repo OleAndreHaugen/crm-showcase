@@ -6,7 +6,7 @@
 		"targetServers": [],
 		"testServers": [],
 		"remote": "https://github.com/OleAndreHaugen/crm-showcase",
-		"path": "C:\\Planet9\\crm-showcase2",
+		"path": "C:\\Planet9\\crm-showcase",
 		"readme": [
 			"==OBJECT STRING==",
 			"# CRM Showcase\r",
@@ -29,11 +29,12 @@
 			"Includes Tile/Tile Group/Launchpad setup\r",
 			"\r",
 			""
-		]
+		],
+		"packageJSON": ""
 	},
-	"name": "CRM",
+	"name": "com.neptune.crmdemo",
 	"description": "Mini-CRM",
-	"ver": "22.3.14.91",
+	"ver": "22.3.14.920",
 	"enableCICD": true,
 	"apps": [],
 	"api": [],
@@ -134,14 +135,14 @@
 			"id": "4a7331c9-42a4-4aa4-9249-9b08cd5d1d8d",
 			"name": "crm_opportunity_list",
 			"description": "",
-			"ver": "22.3.14.79",
+			"ver": "22.3.14.1722",
 			"application": "planet9_adaptive_list"
 		},
 		{
 			"id": "4d47bc5b-0b97-4e4e-860a-04951477bd43",
 			"name": "crm_account_list",
 			"description": "",
-			"ver": "22.3.13.1038",
+			"ver": "22.3.14.1659",
 			"application": "planet9_adaptive_list"
 		},
 		{
@@ -155,7 +156,7 @@
 			"id": "9017f1b9-4561-42a1-8535-c2a27094cecc",
 			"name": "crm_master_industry",
 			"description": "",
-			"ver": "22.3.13.1041",
+			"ver": "22.3.14.1041",
 			"application": "planet9_adaptive_list"
 		},
 		{
@@ -183,7 +184,7 @@
 			"id": "c3d13886-6f76-452d-8edd-f816fb313362",
 			"name": "crm_opportunity_chart",
 			"description": "",
-			"ver": "22.3.14.840",
+			"ver": "22.3.14.1722",
 			"application": "planet9_adaptive_tile_chart"
 		},
 		{
@@ -192,6 +193,13 @@
 			"description": "",
 			"ver": "22.3.14.753",
 			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "ff68745d-ad76-4d9f-8f9f-ff6ee5e8eeed",
+			"name": "crm_account_create",
+			"description": "",
+			"ver": "22.3.14.1657",
+			"application": "planet9_adaptive_edit"
 		}
 	],
 	"api_authentication": [],

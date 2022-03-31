@@ -199,7 +199,8 @@
 					"dialogTitle": "Account",
 					"dialogTitleField": "name",
 					"dialogIcon": "sap-icon://account",
-					"dialogHeight": "800px"
+					"dialogHeight": "800px",
+					"dialogSubTitle": "Account"
 				}
 			},
 			{
@@ -271,7 +272,8 @@
 				"name": "updatedAt",
 				"text": "Updated At",
 				"fieldPos": 7,
-				"formatter": "date00"
+				"formatter": "date00",
+				"minScreenWidth": "Large"
 			},
 			{
 				"enableFilter": true,
@@ -301,7 +303,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.3.14.79",
+	"ver": "22.3.14.1722",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

@@ -13,8 +13,8 @@
 				"textButtonCreate": "Create",
 				"typeButtonCreate": "Emphasized",
 				"iconButtonExport": "sap-icon://excel-attachment",
-				"textButtonExport": "Export",
-				"typeButtonExport": "Emphasized",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
 				"iconButtonImport": "sap-icon://fa-solid/file-import",
 				"textButtonImport": "",
 				"typeButtonImport": "Transparent",
@@ -51,7 +51,7 @@
 					"destinationType": "F",
 					"openAs": "P",
 					"butType": "Accept",
-					"destinationTargetF": "724a49e8-3bb5-4ac4-807c-8ce4337a7e68",
+					"destinationTargetF": "ff68745d-ad76-4d9f-8f9f-ff6ee5e8eeed",
 					"keyField": []
 				}
 			},
@@ -288,7 +288,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.3.13.1038",
+	"ver": "22.3.14.1659",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",
