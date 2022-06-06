@@ -30,64 +30,82 @@
 			"\r",
 			""
 		],
-		"packageJSON": ""
+		"packageJSON": [
+			"==OBJECT STRING==",
+			"{",
+			"  \"name\": \"CRM\",",
+			"  \"version\": \"1.0.0\",",
+			"  \"description\": \"Mini-CRM\",",
+			"  \"author\": \"Neptune Software\",",
+			"  \"license\": \"LicenseRef-LICENSE\",",
+			"  \"private\": true,",
+			"  \"scripts\": {",
+			"    \"deploy\": \"ts-node src/deploy.ts\",",
+			"    \"test\": \"jest --passWithNoTests\"",
+			"  },",
+			"  \"engines\": {",
+			"    \"node\": \"14.16.0\"",
+			"  },",
+			"  \"devDependencies\": {",
+			"    \"@types/jest\": \"^26.0.23\",",
+			"    \"typescript\": \"^4.2.3\",",
+			"    \"ts-node\": \"^10.0.0\",",
+			"    \"axios\": \"^0.21.1\",",
+			"    \"jest\": \"^27.0.4\",",
+			"    \"ts-jest\": \"^27.0.3\"",
+			"  }",
+			"}",
+			""
+		]
 	},
 	"name": "com.neptune.crmdemo",
 	"description": "Mini-CRM",
-	"ver": "22.3.14.920",
+	"ver": "22.6.6.107",
 	"enableCICD": true,
 	"apps": [],
 	"api": [],
-	"odataMock": [],
 	"odataSource": [],
+	"odataMock": [],
 	"dictionary": [
 		{
-			"id": "0483f8eb-8c16-4903-83fd-f6208b625595",
-			"name": "crm_contact",
-			"description": "CRM: Contact",
-			"ver": "22.3.13.935"
-		},
-		{
-			"id": "48986b3f-d383-4ede-8f5f-a7069a058796",
-			"name": "crm_opportunity",
-			"description": "CRM_Opportunity",
-			"ver": "22.3.13.938"
+			"id": "a790f7db-d11f-4778-90d6-13b60852be66",
+			"name": "crm_account",
+			"description": "CRM: Account"
 		},
 		{
 			"id": "9774916e-6979-46ee-a393-e173d2e2db2f",
 			"name": "crm_industry",
-			"description": "CRM: Industry",
-			"ver": "22.3.13.944"
+			"description": "CRM: Industry"
 		},
 		{
 			"id": "a38a516e-4b52-4509-b535-d5a919e9ebdb",
 			"name": "crm_type",
-			"description": "CRM: Account Type",
-			"ver": "22.3.13.944"
-		},
-		{
-			"id": "a790f7db-d11f-4778-90d6-13b60852be66",
-			"name": "crm_account",
-			"description": "CRM: Account",
-			"ver": "22.3.13.933"
+			"description": "CRM: Account Type"
 		},
 		{
 			"id": "b64eb827-09a4-4288-905e-6988cb22c3b2",
 			"name": "crm_country",
-			"description": "CRM: Country",
-			"ver": "22.3.13.944"
+			"description": "CRM: Country"
 		},
 		{
-			"id": "ba6bae23-8c88-4ea6-8018-742ec95f8d90",
-			"name": "crm_currency",
-			"description": "CRM: Currency",
-			"ver": "22.3.14.737"
+			"id": "0483f8eb-8c16-4903-83fd-f6208b625595",
+			"name": "crm_contact",
+			"description": "CRM: Contact"
+		},
+		{
+			"id": "48986b3f-d383-4ede-8f5f-a7069a058796",
+			"name": "crm_opportunity",
+			"description": "CRM_Opportunity"
 		},
 		{
 			"id": "e7c94f57-8a66-4f3d-98dd-7a3a45c97524",
 			"name": "crm_stage",
-			"description": "CRM: Stage",
-			"ver": "22.3.13.1020"
+			"description": "CRM: Stage"
+		},
+		{
+			"id": "ba6bae23-8c88-4ea6-8018-742ec95f8d90",
+			"name": "crm_currency",
+			"description": "CRM: Currency"
 		}
 	],
 	"jsclass": [],
@@ -97,108 +115,93 @@
 	"rulesengine": [],
 	"reports": [
 		{
-			"id": "2460074d-5b67-471a-9398-01427a563809",
-			"name": "crm_contact_child",
+			"id": "b555aed7-9277-416d-a8be-37464fa16903",
+			"name": "crm_master_country",
 			"description": "",
-			"ver": "22.3.14.84",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "2d582f25-ea87-40c1-93bb-0b2cc8d69ec6",
-			"name": "crm_account_country_chart",
-			"description": "",
-			"ver": "22.3.14.736",
-			"application": "planet9_adaptive_tile_chart"
-		},
-		{
-			"id": "3961099d-b524-43fa-9058-04220f801c75",
-			"name": "crm_master_stages",
-			"description": "",
-			"ver": "22.3.13.1021",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "3d5e3139-4cce-4ac0-8db8-2cf95d117f2f",
-			"name": "crm_opportunity_child",
-			"description": "",
-			"ver": "22.3.14.721",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "476af17e-e699-4771-bc03-76a573267177",
-			"name": "crm_contact_edit",
-			"description": "",
-			"ver": "22.3.14.757",
-			"application": "planet9_adaptive_edit"
-		},
-		{
-			"id": "4a7331c9-42a4-4aa4-9249-9b08cd5d1d8d",
-			"name": "crm_opportunity_list",
-			"description": "",
-			"ver": "22.3.14.1722",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "4d47bc5b-0b97-4e4e-860a-04951477bd43",
-			"name": "crm_account_list",
-			"description": "",
-			"ver": "22.3.14.1659",
 			"application": "planet9_adaptive_list"
 		},
 		{
 			"id": "724a49e8-3bb5-4ac4-807c-8ce4337a7e68",
 			"name": "crm_account_edit",
 			"description": "",
-			"ver": "22.3.14.81",
 			"application": "planet9_adaptive_edit"
 		},
 		{
-			"id": "9017f1b9-4561-42a1-8535-c2a27094cecc",
-			"name": "crm_master_industry",
+			"id": "4d47bc5b-0b97-4e4e-860a-04951477bd43",
+			"name": "crm_account_list",
 			"description": "",
-			"ver": "22.3.14.1041",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "3961099d-b524-43fa-9058-04220f801c75",
+			"name": "crm_master_stages",
+			"description": "",
 			"application": "planet9_adaptive_list"
 		},
 		{
 			"id": "b41c259f-ee5a-459d-9350-9cd21d3f8616",
 			"name": "crm_master_type",
 			"description": "",
-			"ver": "22.3.13.103",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "b555aed7-9277-416d-a8be-37464fa16903",
-			"name": "crm_master_country",
-			"description": "",
-			"ver": "22.3.13.1039",
 			"application": "planet9_adaptive_list"
 		},
 		{
 			"id": "b8a128c2-e75e-448c-815c-fd25d1faf9c2",
 			"name": "crm_opportunity_edit",
 			"description": "",
-			"ver": "22.3.14.82",
 			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "4a7331c9-42a4-4aa4-9249-9b08cd5d1d8d",
+			"name": "crm_opportunity_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "3d5e3139-4cce-4ac0-8db8-2cf95d117f2f",
+			"name": "crm_opportunity_child",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "9017f1b9-4561-42a1-8535-c2a27094cecc",
+			"name": "crm_master_industry",
+			"description": "",
+			"application": "planet9_adaptive_list"
 		},
 		{
 			"id": "c3d13886-6f76-452d-8edd-f816fb313362",
 			"name": "crm_opportunity_chart",
 			"description": "",
-			"ver": "22.3.14.1722",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "2d582f25-ea87-40c1-93bb-0b2cc8d69ec6",
+			"name": "crm_account_country_chart",
+			"description": "",
 			"application": "planet9_adaptive_tile_chart"
 		},
 		{
 			"id": "cc73c51f-8a08-4f90-b556-9c1a9af85670",
 			"name": "crm_master_currency",
 			"description": "",
-			"ver": "22.3.14.753",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "476af17e-e699-4771-bc03-76a573267177",
+			"name": "crm_contact_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "2460074d-5b67-471a-9398-01427a563809",
+			"name": "crm_contact_child",
+			"description": "",
 			"application": "planet9_adaptive_list"
 		},
 		{
 			"id": "ff68745d-ad76-4d9f-8f9f-ff6ee5e8eeed",
 			"name": "crm_account_create",
 			"description": "",
-			"ver": "22.3.14.1657",
 			"application": "planet9_adaptive_edit"
 		}
 	],
@@ -216,14 +219,14 @@
 			"name": "CRM: Stages"
 		},
 		{
-			"id": "6ab0dd8f-244b-44aa-a307-119dbc458cbb",
-			"description": null,
-			"name": "CRM: Opportunity"
-		},
-		{
 			"id": "a84b3832-0869-4628-a6f7-28e825fb596e",
 			"description": null,
 			"name": "CRM: Countries"
+		},
+		{
+			"id": "6ab0dd8f-244b-44aa-a307-119dbc458cbb",
+			"description": null,
+			"name": "CRM: Opportunity"
 		},
 		{
 			"id": "da7bf75f-2c9e-4457-a43a-65be77322405",
@@ -260,65 +263,49 @@
 	"systems": [],
 	"doc": [],
 	"wf_notifications": [],
-	"wf_definition": [],
 	"department": [],
 	"script_scheduler": [],
+	"wf_definition": [],
 	"connector": [
 		{
-			"id": "18578381-3289-4c42-8590-e7fb6f107072",
-			"updatedAt": "2022-03-13T08:42:05.000Z",
-			"changedBy": "ole-andre.haugen@neptune-software.com",
-			"name": "CRM Stages",
-			"description": "Master Data - Stages"
-		},
-		{
-			"id": "1de2443a-8194-4ab7-8f10-c1b98bc521aa",
-			"updatedAt": "2022-03-13T09:01:02.000Z",
-			"changedBy": "ole-andre.haugen@neptune-software.com",
-			"name": "CRM Types",
-			"description": "Master Data - Types"
-		},
-		{
-			"id": "37ee276f-e113-4b12-a665-0612fef24c24",
-			"updatedAt": "2022-03-13T09:41:03.000Z",
-			"changedBy": "ole-andre.haugen@neptune-software.com",
-			"name": "CRM Industries",
-			"description": "Master Data - Industries"
-		},
-		{
 			"id": "53baf1eb-0a51-4f65-a656-9cac96ab6eab",
-			"updatedAt": "2022-03-13T08:41:31.000Z",
-			"changedBy": "ole-andre.haugen@neptune-software.com",
 			"name": "CRM Accounts",
 			"description": "Accounts"
 		},
 		{
-			"id": "56f88179-78da-4f7c-a42f-c65c76d457be",
-			"updatedAt": "2022-03-14T06:55:16.000Z",
-			"changedBy": "ole-andre.haugen@neptune-software.com",
-			"name": "CRM Contacts",
-			"description": "Contacts"
-		},
-		{
 			"id": "bd3ce410-4327-4a66-8c4e-9ab7daa80d73",
-			"updatedAt": "2022-03-13T08:41:43.000Z",
-			"changedBy": "ole-andre.haugen@neptune-software.com",
 			"name": "CRM Country",
 			"description": "Master Data - Country"
 		},
 		{
+			"id": "37ee276f-e113-4b12-a665-0612fef24c24",
+			"name": "CRM Industries",
+			"description": "Master Data - Industries"
+		},
+		{
+			"id": "18578381-3289-4c42-8590-e7fb6f107072",
+			"name": "CRM Stages",
+			"description": "Master Data - Stages"
+		},
+		{
 			"id": "c75fe2a7-c587-4f46-b0d6-c56697f7d146",
-			"updatedAt": "2022-03-13T08:41:19.000Z",
-			"changedBy": "ole-andre.haugen@neptune-software.com",
 			"name": "CRM Opportunity",
 			"description": "Opportunity"
 		},
 		{
+			"id": "1de2443a-8194-4ab7-8f10-c1b98bc521aa",
+			"name": "CRM Types",
+			"description": "Master Data - Types"
+		},
+		{
 			"id": "d9074162-374f-43a4-bef6-6f03a4163427",
-			"updatedAt": "2022-03-14T06:38:16.000Z",
-			"changedBy": "ole-andre.haugen@neptune-software.com",
 			"name": "CRM Currency",
 			"description": "Master Data - Currency"
+		},
+		{
+			"id": "56f88179-78da-4f7c-a42f-c65c76d457be",
+			"name": "CRM Contacts",
+			"description": "Contacts"
 		}
 	]
 }

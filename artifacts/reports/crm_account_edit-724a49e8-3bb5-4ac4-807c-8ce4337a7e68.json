@@ -137,7 +137,17 @@
 				"text": "Name",
 				"fieldPos": 1,
 				"required": true,
-				"columnLabel": "General"
+				"columnLabel": "General",
+				"type": "ValueHelp",
+				"_navigation": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "4d47bc5b-0b97-4e4e-860a-04951477bd43",
+					"keyField": []
+				},
+				"valueHelpReturnField": "",
+				"valueRequestKey": "accountid"
 			},
 			{
 				"editable": true,
@@ -236,7 +246,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.3.14.81",
+	"ver": "22.5.22.1057",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",
