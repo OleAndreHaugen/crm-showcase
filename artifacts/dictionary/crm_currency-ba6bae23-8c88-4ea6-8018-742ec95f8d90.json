@@ -8,7 +8,8 @@
 			"fieldName": "currency",
 			"fieldType": "text",
 			"description": "Currency",
-			"isUnique": true
+			"isUnique": false,
+			"isNullable": true
 		},
 		{
 			"id": "7ba2a4ab-22f6-41a6-aa1d-db1d6980464b",
@@ -22,7 +23,7 @@
 	"foreignKeys": [],
 	"name": "crm_currency",
 	"description": "CRM: Currency",
-	"ver": "22.3.14.737",
+	"ver": "22.6.10.168",
 	"enableAudit": false,
 	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
 	"rolesRead": [],
