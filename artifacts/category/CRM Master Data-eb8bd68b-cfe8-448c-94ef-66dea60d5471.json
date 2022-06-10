@@ -8,8 +8,7 @@
 		"a84b3832-0869-4628-a6f7-28e825fb596e",
 		"da7bf75f-2c9e-4457-a43a-65be77322405",
 		"61e98a37-aa78-4899-8b7f-90195c9f0010",
-		"a9b43e8a-b765-4d48-a561-42a1911eca90",
-		"23015526-637e-4624-b095-28304456d390"
+		"a9b43e8a-b765-4d48-a561-42a1911eca90"
 	],
 	"tilegroupsOrder": [],
 	"configMessage": {},
@@ -32,7 +31,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "22.3.16.926",
+	"ver": "22.6.10.1524",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -66,12 +65,6 @@
 	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
 	"roles": [],
 	"tiles": [
-		{
-			"id": "23015526-637e-4624-b095-28304456d390",
-			"name": "Splitter",
-			"title": "Splitter",
-			"ver": "22.4.27.1337"
-		},
 		{
 			"id": "61e98a37-aa78-4899-8b7f-90195c9f0010",
 			"name": "CRM: Stages",
