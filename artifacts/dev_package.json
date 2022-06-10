@@ -224,6 +224,11 @@
 			"name": "CRM: Countries"
 		},
 		{
+			"id": "a9b43e8a-b765-4d48-a561-42a1911eca90",
+			"description": null,
+			"name": "CRM: Type"
+		},
+		{
 			"id": "6ab0dd8f-244b-44aa-a307-119dbc458cbb",
 			"description": null,
 			"name": "CRM: Opportunity"
