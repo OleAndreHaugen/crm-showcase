@@ -9,7 +9,7 @@
 			"fieldType": "text",
 			"isNullable": false,
 			"description": "Country",
-			"isUnique": true
+			"isUnique": false
 		},
 		{
 			"id": "81a09713-c65e-4bd3-d01a-2a090da2c9bb",
@@ -30,7 +30,7 @@
 	"foreignKeys": [],
 	"name": "crm_country",
 	"description": "CRM: Country",
-	"ver": "22.6.10.154",
+	"ver": "22.6.10.1528",
 	"enableAudit": false,
 	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
 	"rolesRead": [],
