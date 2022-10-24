@@ -179,7 +179,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "22.10.24.1737",
+	"ver": "22.10.24.1916",
 	"pwa_enable": false,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
@@ -195,7 +195,7 @@
 			"id": "8221ec94-7ff2-450a-b4a2-fde2ba45d378",
 			"name": "CRM",
 			"title": "CRM",
-			"ver": "22.10.24.1517"
+			"ver": "22.10.24.1912"
 		}
 	]
 }

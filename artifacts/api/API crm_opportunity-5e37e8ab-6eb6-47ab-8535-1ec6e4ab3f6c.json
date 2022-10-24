@@ -336,7 +336,7 @@
 	"documentation": [],
 	"name": "API crm_opportunity",
 	"endpoint": "/api/entity",
-	"ver": "22.10.24.747",
+	"ver": "22.10.24.1914",
 	"version": "1.0",
 	"description": null,
 	"mediaType": "application/json",

@@ -31,7 +31,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "22.10.24.1517",
+	"ver": "22.10.24.1912",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -69,19 +69,19 @@
 			"id": "6ab0dd8f-244b-44aa-a307-119dbc458cbb",
 			"name": "CRM: Opportunity",
 			"title": "Opportunity",
-			"ver": "22.10.24.1524"
+			"ver": "22.10.24.1911"
 		},
 		{
 			"id": "465b91b2-4b52-4c63-926a-070e3930ee1a",
 			"name": "CRM: Account",
 			"title": "Account",
-			"ver": "22.10.24.1523"
+			"ver": "22.10.24.1911"
 		},
 		{
 			"id": "2a0175b8-52cd-46cf-8acd-f2cce3151d26",
 			"name": "CRM: Opportunities Analytic",
 			"title": " Opportunities",
-			"ver": "22.10.24.1524"
+			"ver": "22.10.24.1912"
 		}
 	],
 	"tilegroups": [
@@ -89,7 +89,7 @@
 			"id": "eb8bd68b-cfe8-448c-94ef-66dea60d5471",
 			"name": "CRM Master Data",
 			"title": "Master Data",
-			"ver": "22.10.24.1517"
+			"ver": "22.10.24.1912"
 		}
 	]
 }

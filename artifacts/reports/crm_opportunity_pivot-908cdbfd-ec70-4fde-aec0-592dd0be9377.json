@@ -189,7 +189,7 @@
 				{
 					"filter": true,
 					"name": "accountid",
-					"text": "Account ID",
+					"text": "Account",
 					"fieldPos": 1,
 					"valueType": "Lookup",
 					"valueLookup": {
@@ -246,7 +246,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.10.24.197",
+	"ver": "22.10.24.1914",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_bi",

@@ -22,7 +22,7 @@
 	"foreignKeys": [],
 	"name": "crm_industry",
 	"description": "CRM: Industry",
-	"ver": "22.10.24.158",
+	"ver": "22.10.24.1915",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",

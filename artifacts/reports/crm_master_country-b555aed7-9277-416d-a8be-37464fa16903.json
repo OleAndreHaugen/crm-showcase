@@ -158,7 +158,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": "b64eb827-09a4-4288-905e-6988cb22c3b2",
-	"ver": "22.10.24.1522",
+	"ver": "22.10.24.1913",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",
@@ -169,6 +169,6 @@
 	"tableObj": {
 		"id": "b64eb827-09a4-4288-905e-6988cb22c3b2",
 		"name": "crm_country",
-		"ver": "22.10.24.158"
+		"ver": "22.10.24.1915"
 	}
 }
