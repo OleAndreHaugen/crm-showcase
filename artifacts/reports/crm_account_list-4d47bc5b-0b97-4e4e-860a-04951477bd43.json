@@ -26,7 +26,7 @@
 				"typeButtonRun": "Emphasized",
 				"enableRun": true,
 				"enableCreate": true,
-				"enableClose": false,
+				"enableClose": true,
 				"enableDelete": true,
 				"enableExport": true,
 				"enableImport": false,
@@ -76,7 +76,8 @@
 				"enableAction3": false,
 				"fixedLayout": true,
 				"inset": false,
-				"initialSortField": "name"
+				"initialSortField": "name",
+				"showSeparators": "All"
 			}
 		},
 		"fieldCatalog": [
@@ -213,7 +214,10 @@
 					"dialogTitleField": "name",
 					"dialogSubTitle": "Account",
 					"dialogIcon": "sap-icon://account"
-				}
+				},
+				"statusInverted": false,
+				"statusStateType": "Fixed",
+				"statusStateFixed": "Success"
 			},
 			{
 				"enableFilter": true,
@@ -291,7 +295,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.5.1.2138",
+	"ver": "22.10.24.1525",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

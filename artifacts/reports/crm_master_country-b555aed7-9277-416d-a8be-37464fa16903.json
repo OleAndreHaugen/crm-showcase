@@ -55,8 +55,8 @@
 				"action2Type": "Transparent",
 				"action3Text": "",
 				"action3Type": "Transparent",
-				"alternateRowColors": true,
-				"enableCompact": true,
+				"alternateRowColors": false,
+				"enableCompact": false,
 				"enableAction1": false,
 				"enableAction2": false,
 				"enableAction3": false,
@@ -64,7 +64,8 @@
 				"inset": false,
 				"paginationShowSelection": true,
 				"enableCozy": true,
-				"enableCondensed": true
+				"enableCondensed": true,
+				"showSeparators": "None"
 			}
 		},
 		"fieldCatalog": [
@@ -157,7 +158,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": "b64eb827-09a4-4288-905e-6988cb22c3b2",
-	"ver": "22.3.13.1039",
+	"ver": "22.10.24.1522",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",
@@ -168,6 +169,6 @@
 	"tableObj": {
 		"id": "b64eb827-09a4-4288-905e-6988cb22c3b2",
 		"name": "crm_country",
-		"ver": "22.6.10.1528"
+		"ver": "22.10.24.158"
 	}
 }

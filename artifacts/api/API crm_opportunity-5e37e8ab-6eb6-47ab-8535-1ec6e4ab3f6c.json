@@ -1,0 +1,360 @@
+{
+	"id": "5e37e8ab-6eb6-47ab-8535-1ec6e4ab3f6c",
+	"createdAt": "2022-10-24T05:44:46.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "2a399d94-d439-4377-9363-07804fe6e55e",
+			"path": "/crm_opportunity",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1,fieldName2,fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "crm_opportunity"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "fe1c4220-2cd8-43e9-ec18-278f1aa5222d",
+			"path": "/crm_opportunity",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "crm_opportunity"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "crm_opportunity"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "7061429e-27ff-45d2-c07d-738436202d12",
+			"path": "/crm_opportunity",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "crm_opportunity"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "crm_opportunity"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "53866c54-77a8-4af8-ef19-aa73a6be742b",
+			"path": "/crm_opportunity",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "crm_opportunity"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "2a184ec5-0407-4a5e-f206-79269d885191",
+			"path": "/crm_opportunity/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "b1daff15-255b-49ee-b299-78790ea707bf",
+			"name": "crm_opportunity",
+			"properties": [
+				{
+					"id": "ca4944bf-0457-47cb-d0fe-d6cbb341e799",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "7344b878-b8bf-49db-dea9-73284118da46",
+					"parent": "",
+					"name": "accountid",
+					"description": "Account ID",
+					"objectType": "string"
+				},
+				{
+					"id": "b6f0a95e-aae0-4780-b102-72a57f62611d",
+					"parent": "",
+					"name": "name",
+					"description": "Name",
+					"objectType": "string"
+				},
+				{
+					"id": "edbe4382-bcaf-43fd-ab84-22507b635302",
+					"parent": "",
+					"name": "description",
+					"description": "Description",
+					"objectType": "string"
+				},
+				{
+					"id": "4caa8220-d4e7-4898-dd2f-4be1fac19839",
+					"parent": "",
+					"name": "value",
+					"description": "Value",
+					"objectType": "number"
+				},
+				{
+					"id": "0907d024-1de8-4585-9c0d-3cd636035b03",
+					"parent": "",
+					"name": "currency",
+					"description": "Currency",
+					"objectType": "string"
+				},
+				{
+					"id": "d7b45b12-a632-4eff-b068-e1d578c93169",
+					"parent": "",
+					"name": "stage",
+					"description": "Stage",
+					"objectType": "integer"
+				},
+				{
+					"id": "8380deb1-5858-4f14-89ff-337f55e9b833",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "01780c43-83a4-495e-ddd2-9788ad8c5de7",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created By",
+					"objectType": "string"
+				},
+				{
+					"id": "9e8a23f3-00b1-472d-9288-a398a2b34709",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "c8da3de1-a958-4ca6-f754-ba6b0cc77c77",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated By",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "614bbca8-e0e9-4a22-dfcc-304cfecfe56f",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "ea2ae8ff-3cb5-4ca9-c671-5268148be277",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "4346f14c-0608-4700-eaba-9b7cfe456657",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "9e11423d-d942-497c-925a-f9892770b216",
+			"name": "count",
+			"properties": [
+				{
+					"id": "e7eb81eb-d6c0-41c6-de17-d2c01bdf60c9",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "API crm_opportunity",
+	"endpoint": "/api/entity",
+	"ver": "22.10.24.747",
+	"version": "1.0",
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
+	"apiGroup": "3f27cd96-71cc-42c6-9d2e-aea69f4421c8",
+	"apiFormat": 0,
+	"roles": []
+}

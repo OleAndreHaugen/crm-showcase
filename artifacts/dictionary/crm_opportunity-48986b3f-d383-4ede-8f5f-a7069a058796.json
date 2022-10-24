@@ -53,6 +53,7 @@
 	"description": "CRM: Opportunity",
 	"ver": "22.6.10.154",
 	"enableAudit": false,
+	"includeDataInPackage": false,
 	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
 	"rolesRead": [],
 	"rolesWrite": []

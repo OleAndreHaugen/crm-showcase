@@ -26,7 +26,7 @@
 				"typeButtonRun": "Emphasized",
 				"enableRun": true,
 				"enableCreate": true,
-				"enableClose": false,
+				"enableClose": true,
 				"enableDelete": false,
 				"enableExport": true,
 				"enableImport": false,
@@ -75,7 +75,8 @@
 				"enableAction2": false,
 				"enableAction3": false,
 				"fixedLayout": true,
-				"inset": false
+				"inset": false,
+				"showSeparators": "All"
 			}
 		},
 		"fieldCatalog": [
@@ -184,7 +185,7 @@
 				},
 				"_navigation": {
 					"destinationType": "F",
-					"openAs": "D",
+					"openAs": "S",
 					"butType": "Accept",
 					"destinationTargetF": "724a49e8-3bb5-4ac4-807c-8ce4337a7e68",
 					"keyField": [
@@ -303,7 +304,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.3.14.1722",
+	"ver": "22.10.24.1525",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

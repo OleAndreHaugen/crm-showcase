@@ -16,6 +16,41 @@
 				"::after,\r",
 				"::before {\r",
 				"    outline: none !important;\r",
+				"}\r",
+				"\r",
+				"*:focus {\r",
+				"    outline: none !important;\r",
+				"}\r",
+				"\r",
+				"html.sap-desktop .sapFDynamicPageTitle.sapFDynamicPageTitleFocus {\r",
+				"    outline: none !important;\r",
+				"}\r",
+				"\r",
+				".nepCatTitle.sapMTitle {\r",
+				"    font-family: \"72Black\";\r",
+				"    font-size: 28px;\r",
+				"}\r",
+				"\r",
+				".nepCardDescription {\r",
+				"    font-size: 16px;\r",
+				"    cursor: pointer;\r",
+				"}\r",
+				"\r",
+				".sapFCard .sapFCardHeader .sapFCardHeaderText .sapFCardTitle {\r",
+				"    font-family: \"72Black\";\r",
+				"    font-size: 20px;\r",
+				"    cursor: pointer;\r",
+				"}\r",
+				"\r",
+				".sapFCard .sapFCardHeader .sapFCardSubtitle {\r",
+				"    font-family: \"72Black\";\r",
+				"    font-size: 14px;\r",
+				"}\r",
+				"\r",
+				".sapFCardHeader:focus::before,\r",
+				".sapFGridContainer .sapFGridContainerItemWrapperNoVisualFocus:focus .sapFCardHeader::before,\r",
+				".sapFGridContainer .sapFGridContainerItemWrapperNoVisualFocus:focus .sapFCard.sapFCardNoHeader::before {\r",
+				"    border: none;\r",
 				"}"
 			],
 			"name": "default",
@@ -34,9 +69,9 @@
 				"            background-size: cover;",
 				"        }",
 				"    .nepCatTitle.sapMTitle { color: white; }.nepCatSubTitle.sapMTitle { color: white !important; }",
-				"            .nepLayout .nepMainBar { background: rgba(0, 0, 0, 0.65); }",
-				"            .nepLayout .nepLaunchpadMenuSettings { background: rgba(0, 0, 0, 0.65); }",
-				"        *,::after,::before {    outline: none !important;}</style>"
+				"            .nepLayout .nepMainBar { background: #1d232a; }",
+				"            .nepLayout .nepLaunchpadMenuSettings { background: #1d232a; }",
+				"        *,::after,::before {    outline: none !important;}*:focus {    outline: none !important;}html.sap-desktop .sapFDynamicPageTitle.sapFDynamicPageTitleFocus {    outline: none !important;}.nepCatTitle.sapMTitle {    font-family: \"72Black\";    font-size: 28px;}.nepCardDescription {    font-size: 16px;    cursor: pointer;}.sapFCard .sapFCardHeader .sapFCardHeaderText .sapFCardTitle {    font-family: \"72Black\";    font-size: 20px;    cursor: pointer;}.sapFCard .sapFCardHeader .sapFCardSubtitle {    font-family: \"72Black\";    font-size: 14px;}.sapFCardHeader:focus::before,.sapFGridContainer .sapFGridContainerItemWrapperNoVisualFocus:focus .sapFCardHeader::before,.sapFGridContainer .sapFGridContainerItemWrapperNoVisualFocus:focus .sapFCard.sapFCardNoHeader::before {    border: none;}</style>"
 			],
 			"shellContentWidth": "XXLarge",
 			"pageBackgroundColor": "rgba(0, 0, 0, 0.45)",
@@ -46,7 +81,7 @@
 			"textTitleColor": "white",
 			"textSubTitleColor": "white",
 			"navBackgroundColor": "",
-			"menuBackgroundColor": "rgba(0, 0, 0, 0.65)",
+			"menuBackgroundColor": "#1d232a",
 			"topBackgroundColor": "#29313a",
 			"topBorderColor": "",
 			"topInvert": true,
@@ -58,7 +93,7 @@
 		"enableTopMenu": false,
 		"showAppTitle": true,
 		"verticalMenu": false,
-		"pincode": false,
+		"pincode": true,
 		"pincodeTries": 5,
 		"pincodeLength": 4,
 		"autolock": 0,
@@ -68,7 +103,9 @@
 			"NO"
 		],
 		"loginTitle": "Neptune Software",
-		"loginSubTitle": "CRM Showcase"
+		"loginSubTitle": "CRM Showcase",
+		"enableWebAuth": true,
+		"pincodeKeyIterations": "100"
 	},
 	"enhancement": [
 		{
@@ -117,13 +154,10 @@
 	"customLogo": null,
 	"launchpadApp": "planet9_launchpad_standard",
 	"hideSidemenu": false,
-	"ui5Version": "latestCDN",
+	"ui5Version": "customCDN",
+	"ui5Url": "https://openui5.hana.ondemand.com/1.102.6/resources/sap-ui-core.js",
 	"ui5Theme": "sap_horizon_dark",
-	"header": [
-		"==OBJECT STRING==",
-		"<script type=\"text/javascript\" src=\"/public/highsuite/themes/dark-unica.js\"></script>\r",
-		""
-	],
+	"header": "<script type=\"text/javascript\" src=\"/public/highsuite/themes/dark-unica.js\"></script>",
 	"customTheme": null,
 	"isExternal": null,
 	"emailPattern": null,
@@ -145,7 +179,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "22.6.7.1622",
+	"ver": "22.10.24.1737",
 	"pwa_enable": false,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
@@ -161,7 +195,7 @@
 			"id": "8221ec94-7ff2-450a-b4a2-fde2ba45d378",
 			"name": "CRM",
 			"title": "CRM",
-			"ver": "22.3.13.1014"
+			"ver": "22.10.24.1517"
 		}
 	]
 }

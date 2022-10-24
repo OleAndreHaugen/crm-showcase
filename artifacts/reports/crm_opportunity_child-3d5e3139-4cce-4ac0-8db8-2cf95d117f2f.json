@@ -10,8 +10,8 @@
 				"textButtonClose": "Close",
 				"typeButtonClose": "Transparent",
 				"iconButtonCreate": "",
-				"textButtonCreate": "Create",
-				"typeButtonCreate": "Emphasized",
+				"textButtonCreate": "Add New",
+				"typeButtonCreate": "Transparent",
 				"iconButtonExport": "sap-icon://excel-attachment",
 				"textButtonExport": "",
 				"typeButtonExport": "Transparent",
@@ -24,7 +24,7 @@
 				"iconButtonRun": "sap-icon://synchronize",
 				"textButtonRun": "",
 				"typeButtonRun": "Emphasized",
-				"enableRun": true,
+				"enableRun": false,
 				"enableCreate": true,
 				"enableClose": false,
 				"enableDelete": false,
@@ -83,7 +83,8 @@
 				"enableAction2": false,
 				"enableAction3": false,
 				"fixedLayout": true,
-				"inset": false
+				"inset": false,
+				"showSeparators": "All"
 			}
 		},
 		"fieldCatalog": [
@@ -299,7 +300,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.3.14.721",
+	"ver": "22.10.24.196",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

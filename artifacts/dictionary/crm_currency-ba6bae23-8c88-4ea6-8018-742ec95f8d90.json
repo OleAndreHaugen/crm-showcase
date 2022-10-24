@@ -23,8 +23,9 @@
 	"foreignKeys": [],
 	"name": "crm_currency",
 	"description": "CRM: Currency",
-	"ver": "22.6.10.168",
+	"ver": "22.10.24.158",
 	"enableAudit": false,
+	"includeDataInPackage": true,
 	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
 	"rolesRead": [],
 	"rolesWrite": []
