@@ -145,7 +145,7 @@
 				"fieldPos": 1,
 				"required": true,
 				"columnLabel": "General",
-				"type": "ValueHelp",
+				"type": "",
 				"_navigation": {
 					"destinationType": "F",
 					"openAs": "P",
@@ -267,7 +267,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.10.25.99",
+	"ver": "22.10.25.1050",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",

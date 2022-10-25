@@ -210,6 +210,12 @@
 			"application": "planet9_adaptive_edit"
 		},
 		{
+			"id": "540bdd98-6447-4029-9d66-d0fcb15c351f",
+			"name": "crm_opportunity_chart_accounts",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
 			"id": "4d47bc5b-0b97-4e4e-860a-04951477bd43",
 			"name": "crm_account_list",
 			"description": "",
@@ -298,7 +304,7 @@
 		},
 		{
 			"id": "2a0175b8-52cd-46cf-8acd-f2cce3151d26",
-			"description": "Showing pivot reporting created with Adaptive Designer",
+			"description": "",
 			"name": "CRM: Opportunities Analytic"
 		}
 	],
