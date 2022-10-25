@@ -65,14 +65,8 @@
 	"apps": [],
 	"api": [
 		{
-			"id": "e7f3bd37-f11b-40f5-8f4f-4dd65588ded8",
-			"name": "API crm_account",
-			"description": null,
-			"apiGroup": "3f27cd96-71cc-42c6-9d2e-aea69f4421c8"
-		},
-		{
-			"id": "5e37e8ab-6eb6-47ab-8535-1ec6e4ab3f6c",
-			"name": "API crm_opportunity",
+			"id": "c09e287a-2151-4a00-8fe7-018fa5113307",
+			"name": "CRM Server",
 			"description": null,
 			"apiGroup": "3f27cd96-71cc-42c6-9d2e-aea69f4421c8"
 		}
@@ -121,8 +115,30 @@
 			"description": "CRM: Contact"
 		}
 	],
-	"jsclass": [],
-	"jsscript_group": [],
+	"jsclass": [
+		{
+			"id": "88353d4a-9d24-45b6-84e8-b8a55e8d689c",
+			"name": "AccountDetail",
+			"description": null
+		},
+		{
+			"id": "0c5e4ea6-63e5-4f9f-8fb6-85ac4c3cddb9",
+			"name": "AccountList",
+			"description": null
+		},
+		{
+			"id": "0842fc61-1d83-41aa-80a4-2d1126c9c361",
+			"name": "MasterData",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "486141f0-cf9f-4a85-a894-fd2c12fe7968",
+			"name": "CRM",
+			"description": null
+		}
+	],
 	"theme": [],
 	"pdf": [],
 	"rulesengine": [],

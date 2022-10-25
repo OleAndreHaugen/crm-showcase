@@ -1,0 +1,61 @@
+{
+	"id": "0c5e4ea6-63e5-4f9f-8fb6-85ac4c3cddb9",
+	"createdAt": "2022-10-24T17:29:54.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "a790f7db-d11f-4778-90d6-13b60852be66",
+			"name": "crm_account",
+			"contextname": "crm_account"
+		},
+		{
+			"id": "b64eb827-09a4-4288-905e-6988cb22c3b2",
+			"name": "crm_country",
+			"contextname": "crm_country"
+		},
+		{
+			"id": "a38a516e-4b52-4509-b535-d5a919e9ebdb",
+			"name": "crm_type",
+			"contextname": "crm_type"
+		}
+	],
+	"apis": [],
+	"name": "AccountList",
+	"ver": "22.10.25.817",
+	"description": null,
+	"content": [
+		"==OBJECT STRING==",
+		"const accounts = await entities.crm_account.find({\r",
+		"    select: [\"id\", \"name\", \"country\", \"updatedAt\", \"updatedBy\", \"type\", \"accountid\"]\r",
+		"});\r",
+		"\r",
+		"const countries = await entities.crm_country.find({\r",
+		"    select: [\"country\", \"name\", \"flagurl\"]\r",
+		"});\r",
+		"\r",
+		"const types = await entities.crm_type.find({\r",
+		"    select: [\"type\", \"name\"]\r",
+		"});\r",
+		"\r",
+		"accounts.forEach(function (account) {\r",
+		"\r",
+		"    const country = countries.find(countries => countries.country === account.country);\r",
+		"    const type = types.find(types => types.type === account.type);\r",
+		"\r",
+		"    if (country) account.countryText = country.name;\r",
+		"    if (type) account.typeText = type.name;\r",
+		"\r",
+		"});\r",
+		"\r",
+		"result.data = accounts;\r",
+		"complete();"
+	],
+	"useAsGlobalScript": false,
+	"isTypescript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"jsscriptGroup": "486141f0-cf9f-4a85-a894-fd2c12fe7968",
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e"
+}
