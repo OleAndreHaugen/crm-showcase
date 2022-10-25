@@ -601,6 +601,38 @@
 												}
 											],
 											"data": []
+										},
+										{
+											"fieldNo": "775a0beb-fb89-4ed8-9267-a8ec4d4d64c8",
+											"fieldName": "butCreate",
+											"fieldParent": "a22004a8-e9e2-4194-8b1e-e6b1ecf2023d",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Create",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": [
+														"==OBJECT STRING==",
+														"modeloPageDetail.setData({});\r",
+														"oApp.to(oPageDetail);"
+													],
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
 										}
 									]
 								}
@@ -662,7 +694,22 @@
 							"customComponent": false,
 							"request": [],
 							"response": [],
-							"attributes": [],
+							"attributes": [
+								{
+									"attribute": "styleClassPadding",
+									"grouping": "Properties",
+									"value": "sapUiResponsiveContentPadding",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "backgroundDesign",
+									"grouping": "Properties",
+									"value": "Transparent",
+									"script": "",
+									"translation": []
+								}
+							],
 							"data": [
 								{
 									"fieldNo": "b26dd1a2-4daa-48e6-ff8c-e60eed280fa5",
@@ -678,6 +725,13 @@
 											"attribute": "title",
 											"grouping": "Properties",
 											"value": "General",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMarginTop",
 											"script": "",
 											"translation": []
 										},
@@ -1155,6 +1209,13 @@
 											"translation": []
 										},
 										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiMediumMarginTop",
+											"script": "",
+											"translation": []
+										},
+										{
 											"attribute": "layout",
 											"grouping": "Properties",
 											"value": "ColumnLayout",
@@ -1369,8 +1430,9 @@
 														"};\r",
 														"\r",
 														"apiSave(options).then(function (res) {\r",
-														"    console.log(res);\r",
+														"    modeloPageDetail.setData(res);\r",
 														"    sap.m.MessageToast.show(\"Account saved successfully\");\r",
+														"    apiList();\r",
 														"});"
 													],
 													"language": "javascript",
@@ -1532,7 +1594,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "22.10.25.952",
+	"ver": "22.10.25.1022",
 	"application": "crm_account_list",
 	"title": "CRM Account List",
 	"description": "CRM Account List",
