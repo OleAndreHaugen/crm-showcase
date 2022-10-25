@@ -62,7 +62,14 @@
 	"description": "Mini-CRM",
 	"ver": "22.10.24.199",
 	"enableCICD": true,
-	"apps": [],
+	"apps": [
+		{
+			"id": "fe552df6-e469-4793-8e96-c938e05e9a11",
+			"application": "crm_account_list",
+			"title": "CRM Account List",
+			"description": "CRM Account List"
+		}
+	],
 	"api": [
 		{
 			"id": "c09e287a-2151-4a00-8fe7-018fa5113307",
@@ -116,6 +123,11 @@
 		}
 	],
 	"jsclass": [
+		{
+			"id": "911a1013-a084-411c-952a-7e8d145bd057",
+			"name": "AccountSave",
+			"description": null
+		},
 		{
 			"id": "88353d4a-9d24-45b6-84e8-b8a55e8d689c",
 			"name": "AccountDetail",
@@ -286,7 +298,7 @@
 		},
 		{
 			"id": "2a0175b8-52cd-46cf-8acd-f2cce3151d26",
-			"description": null,
+			"description": "Showing pivot reporting created with Adaptive Designer",
 			"name": "CRM: Opportunities Analytic"
 		}
 	],

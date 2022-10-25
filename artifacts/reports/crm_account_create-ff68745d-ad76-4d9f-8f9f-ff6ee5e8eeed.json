@@ -66,62 +66,74 @@
 			{
 				"name": "accountid",
 				"label": "Account ID",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "name",
 				"label": "Name",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "street",
 				"label": "Street",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "zip",
 				"label": "ZIP",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "city",
 				"label": "City",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "country",
 				"label": "Country",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "type",
 				"label": "Type",
-				"type": "smallint"
+				"type": "smallint",
+				"usage": "BOTH"
 			},
 			{
 				"name": "industry",
 				"label": "Industry ",
-				"type": "smallint"
+				"type": "smallint",
+				"usage": "BOTH"
 			},
 			{
 				"name": "updatedAt",
 				"label": "Updated At",
-				"type": "timestamp"
+				"type": "timestamp",
+				"usage": "BOTH"
 			},
 			{
 				"name": "createdAt",
 				"label": "Created At",
-				"type": "timestamp"
+				"type": "timestamp",
+				"usage": "BOTH"
 			},
 			{
 				"name": "updatedBy",
 				"label": "Updated By",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "createdBy",
 				"label": "Created By",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			}
 		],
 		"fieldsSel": [
@@ -157,9 +169,21 @@
 			{
 				"editable": true,
 				"visible": true,
+				"name": "type",
+				"text": "Type",
+				"fieldPos": 4,
+				"type": "SingleSelectLookup",
+				"lookupTable": "crm_type",
+				"lookupFieldKey": "type",
+				"lookupFieldText": "name",
+				"lookupShowOnlyText": true
+			},
+			{
+				"editable": true,
+				"visible": true,
 				"name": "street",
 				"text": "Street",
-				"fieldPos": 4,
+				"fieldPos": 5,
 				"columnLabel": "Address"
 			},
 			{
@@ -167,21 +191,21 @@
 				"visible": true,
 				"name": "zip",
 				"text": "ZIP",
-				"fieldPos": 5
+				"fieldPos": 6
 			},
 			{
 				"editable": true,
 				"visible": true,
 				"name": "city",
 				"text": "City",
-				"fieldPos": 6
+				"fieldPos": 7
 			},
 			{
 				"editable": true,
 				"visible": true,
 				"name": "country",
 				"text": "Country",
-				"fieldPos": 7,
+				"fieldPos": 8,
 				"type": "SingleSelectLookup",
 				"lookupTable": "crm_country",
 				"lookupFieldKey": "country",
@@ -193,7 +217,7 @@
 				"visible": true,
 				"name": "updatedAt",
 				"text": "Updated At",
-				"fieldPos": 8,
+				"fieldPos": 9,
 				"columnLabel": "Dates",
 				"type": "DateTimePicker"
 			},
@@ -202,14 +226,14 @@
 				"visible": true,
 				"name": "updatedBy",
 				"text": "Updated By",
-				"fieldPos": 9
+				"fieldPos": 10
 			}
 		],
 		"fieldsRun": [
 			{
 				"name": "accountid",
 				"text": "Account ID",
-				"fieldPos": 10
+				"fieldPos": 11
 			}
 		],
 		"defaultVariant": {
@@ -231,7 +255,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.10.24.1912",
+	"ver": "22.10.25.910",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",

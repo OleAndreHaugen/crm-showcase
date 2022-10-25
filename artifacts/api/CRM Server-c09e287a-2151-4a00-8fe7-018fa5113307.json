@@ -97,6 +97,26 @@
 			"auth": [],
 			"endpoints": [],
 			"serverScript": "0842fc61-1d83-41aa-80a4-2d1126c9c361"
+		},
+		{
+			"id": "4ac92e28-9545-4e8e-e345-4bf4c6b772a9",
+			"method": "POST",
+			"path": "/AccountSave",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [],
+			"content": [
+				{
+					"objectType": "object",
+					"items": [],
+					"name": "Account"
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"tags": "Account",
+			"serverScript": "911a1013-a084-411c-952a-7e8d145bd057"
 		}
 	],
 	"definitions": [
@@ -332,11 +352,11 @@
 					"name": "street",
 					"parent": "",
 					"description": "",
-					"objectType": "object",
+					"objectType": "string",
 					"objectName": "street",
-					"isParent": true,
+					"isParent": false,
 					"enableValueHelp": false,
-					"canAddSubNode": true,
+					"canAddSubNode": false,
 					"enabled": true,
 					"showNameField": true,
 					"children": []
@@ -346,11 +366,11 @@
 					"name": "zip",
 					"parent": "",
 					"description": "",
-					"objectType": "object",
+					"objectType": "string",
 					"objectName": "zip",
-					"isParent": true,
+					"isParent": false,
 					"enableValueHelp": false,
-					"canAddSubNode": true,
+					"canAddSubNode": false,
 					"enabled": true,
 					"showNameField": true,
 					"children": []
@@ -386,11 +406,11 @@
 					"name": "type",
 					"parent": "",
 					"description": "",
-					"objectType": "object",
+					"objectType": "string",
 					"objectName": "type",
-					"isParent": true,
+					"isParent": false,
 					"enableValueHelp": false,
-					"canAddSubNode": true,
+					"canAddSubNode": false,
 					"enabled": true,
 					"showNameField": true,
 					"children": []
@@ -757,7 +777,7 @@
 	"documentation": [],
 	"name": "CRM Server",
 	"endpoint": "/api/serverscript/crmserver",
-	"ver": "22.10.25.841",
+	"ver": "22.10.25.953",
 	"version": "1.0",
 	"description": null,
 	"mediaType": null,

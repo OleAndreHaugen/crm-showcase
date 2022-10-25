@@ -84,67 +84,74 @@
 			{
 				"name": "accountid",
 				"label": "Account ID",
-				"type": "text"
-			},
-			{
-				"name": "city",
-				"label": "City",
-				"type": "text"
-			},
-			{
-				"name": "country",
-				"label": "Country",
-				"type": "text"
-			},
-			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text"
-			},
-			{
-				"name": "industry",
-				"label": "Industry ",
-				"type": "smallint"
-			},
-			{
-				"name": "ispartner",
-				"label": "Is Partner",
-				"type": "boolean"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "name",
 				"label": "Name",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "street",
 				"label": "Street",
-				"type": "text"
-			},
-			{
-				"name": "type",
-				"label": "Type",
-				"type": "smallint"
-			},
-			{
-				"name": "updatedAt",
-				"label": "Updated At",
-				"type": "timestamp"
-			},
-			{
-				"name": "updatedBy",
-				"label": "Updated By",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "zip",
 				"label": "ZIP",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "city",
+				"label": "City",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "country",
+				"label": "Country",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "type",
+				"label": "Type",
+				"type": "smallint",
+				"usage": "BOTH"
+			},
+			{
+				"name": "industry",
+				"label": "Industry ",
+				"type": "smallint",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
 			}
 		],
 		"fieldsSel": [
@@ -235,27 +242,26 @@
 				"valueFixed": ""
 			},
 			{
-				"enableFilter": true,
+				"enableFilter": false,
 				"enableSort": true,
 				"visible": true,
-				"name": "street",
-				"text": "Street",
+				"name": "type",
+				"text": "Type",
 				"fieldPos": 6,
-				"type": "",
-				"editable": true
-			},
-			{
-				"enableFilter": true,
-				"enableSort": true,
-				"visible": true,
-				"name": "city",
-				"text": "City",
-				"fieldPos": 7,
-				"type": "",
-				"lookupTable": "crm_country",
-				"lookupFieldKey": "country",
-				"lookupFieldText": "name",
-				"editable": true
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "crm_type",
+					"textField": "name",
+					"keyField": [
+						{
+							"fieldName": "type",
+							"key": "type",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				}
 			},
 			{
 				"enableFilter": false,
@@ -263,7 +269,7 @@
 				"visible": true,
 				"name": "updatedAt",
 				"text": "Updated At",
-				"fieldPos": 8,
+				"fieldPos": 7,
 				"formatter": "date00",
 				"type": ""
 			},
@@ -273,7 +279,7 @@
 				"visible": true,
 				"name": "updatedBy",
 				"text": "Updated By",
-				"fieldPos": 9
+				"fieldPos": 8
 			}
 		],
 		"defaultVariant": {
@@ -295,7 +301,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.10.24.1913",
+	"ver": "22.10.25.99",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",
