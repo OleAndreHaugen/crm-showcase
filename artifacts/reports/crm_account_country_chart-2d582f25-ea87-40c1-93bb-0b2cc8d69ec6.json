@@ -21,7 +21,9 @@
 				"legendLayout": "horizontal",
 				"xAxisTitleEnable": true,
 				"yAxisTitleEnable": true,
-				"chartColor": ""
+				"chartColor": "",
+				"enableMonochrome": true,
+				"colorMonochrome": "#008299"
 			}
 		},
 		"fieldCatalog": [
@@ -129,7 +131,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.10.24.1912",
+	"ver": "22.10.30.2157",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_tile_chart",

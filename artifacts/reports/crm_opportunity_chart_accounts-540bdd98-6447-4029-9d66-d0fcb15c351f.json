@@ -7,7 +7,8 @@
 			"report": {
 				"paginationRows": 10,
 				"updateTime": "1",
-				"initialGroupField": "value"
+				"initialGroupField": "value",
+				"initialGroupOrder": "DESC"
 			},
 			"form": {
 				"enableCompact": false,
@@ -22,7 +23,15 @@
 				"legendLayout": "horizontal",
 				"xAxisTitleEnable": false,
 				"yAxisTitleEnable": false,
-				"chartColor": ""
+				"chartColor": "",
+				"enableMonochrome": true,
+				"colorMonochrome": "#7de7e6",
+				"title": "",
+				"subTitle": "",
+				"titleAlign": "left",
+				"enableSorting": true,
+				"xAxisReversed": true,
+				"yAxisReversed": true
 			}
 		},
 		"fieldCatalog": [
@@ -137,7 +146,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.10.25.1047",
+	"ver": "22.10.31.1221",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_tile_chart",

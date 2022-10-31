@@ -84,7 +84,8 @@
 				"enableAction3": false,
 				"fixedLayout": true,
 				"inset": false,
-				"showSeparators": "All"
+				"showSeparators": "All",
+				"initialGroupField": "stage"
 			}
 		},
 		"fieldCatalog": [
@@ -94,8 +95,18 @@
 				"type": "text"
 			},
 			{
-				"name": "name",
-				"label": "Name",
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			},
+			{
+				"name": "currency",
+				"label": "Currency",
 				"type": "text"
 			},
 			{
@@ -104,13 +115,8 @@
 				"type": "text"
 			},
 			{
-				"name": "value",
-				"label": "Value",
-				"type": "decimal"
-			},
-			{
-				"name": "currency",
-				"label": "Currency",
+				"name": "name",
+				"label": "Name",
 				"type": "text"
 			},
 			{
@@ -124,19 +130,14 @@
 				"type": "timestamp"
 			},
 			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp"
-			},
-			{
 				"name": "updatedBy",
 				"label": "Updated By",
 				"type": "text"
 			},
 			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text"
+				"name": "value",
+				"label": "Value",
+				"type": "decimal"
 			}
 		],
 		"fieldsSel": [
@@ -300,7 +301,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.10.24.1914",
+	"ver": "22.10.31.178",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

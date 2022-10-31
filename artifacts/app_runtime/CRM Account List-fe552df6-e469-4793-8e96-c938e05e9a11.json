@@ -47,11 +47,11 @@
 							"fieldType": "sap.m.Table",
 							"script": "",
 							"customComponent": false,
-							"bindingValue": "API crm_account>crm_account",
+							"bindingValue": "CRM Server>Accounts",
 							"bindingType": "h",
 							"bindingSource": "API",
-							"bindingParentID": "e7f3bd37-f11b-40f5-8f4f-4dd65588ded8",
-							"bindingPathID": "f17a8762-9b18-47a1-9ce2-3577cd35d4bb",
+							"bindingParentID": "c09e287a-2151-4a00-8fe7-018fa5113307",
+							"bindingPathID": "305f11bd-5cf6-4148-e2c4-71ccb2d6717c",
 							"request": [],
 							"response": [],
 							"attributes": [
@@ -93,41 +93,8 @@
 							],
 							"data": [
 								{
-									"fieldNo": "5f082e30-4b00-413d-eede-52fcd429cf0f",
-									"fieldName": "coltabAccountsimage",
-									"fieldParent": "7e3ed3a5-2550-48ed-f90d-bf24acbe8be1",
-									"fieldType": "sap.m.Column",
-									"script": "",
-									"customComponent": false,
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "width",
-											"grouping": "Properties",
-											"value": "60px",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "fb17d0e3-fa6b-4d9f-d240-283f8787f1fc",
-											"fieldName": "colHtabAccountsaccountid1",
-											"fieldParent": "5f082e30-4b00-413d-eede-52fcd429cf0f",
-											"fieldType": "sap.m.Text",
-											"script": "",
-											"customComponent": false,
-											"request": [],
-											"response": [],
-											"attributes": [],
-											"data": []
-										}
-									]
-								},
-								{
-									"fieldNo": "4a88a91a-bf02-439b-d070-8165a3dc63df",
-									"fieldName": "coltabAccountscountry",
+									"fieldNo": "ae1c2e52-7b2b-4aa9-c55b-f6f7bb6f91aa",
+									"fieldName": "coltabAccountsaccountid",
 									"fieldParent": "7e3ed3a5-2550-48ed-f90d-bf24acbe8be1",
 									"fieldType": "sap.m.Column",
 									"script": "",
@@ -137,50 +104,9 @@
 									"attributes": [],
 									"data": [
 										{
-											"fieldNo": "4c25f9f3-51ec-4049-df2c-452c9a838974",
-											"fieldName": "colHtabAccountscountry",
-											"fieldParent": "4a88a91a-bf02-439b-d070-8165a3dc63df",
-											"fieldType": "sap.m.Text",
-											"script": "",
-											"customComponent": false,
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Country",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										}
-									]
-								},
-								{
-									"fieldNo": "0fafce2f-0f90-4b4c-8bad-f8df1dc6db96",
-									"fieldName": "coltabAccountsaccountid",
-									"fieldParent": "7e3ed3a5-2550-48ed-f90d-bf24acbe8be1",
-									"fieldType": "sap.m.Column",
-									"script": "",
-									"customComponent": false,
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "width",
-											"grouping": "Properties",
-											"value": "100px",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "49a579f8-edfd-4386-a348-c2443e606687",
+											"fieldNo": "6e961f1c-1de5-4ec8-dc7b-8daa40e178e2",
 											"fieldName": "colHtabAccountsaccountid",
-											"fieldParent": "0fafce2f-0f90-4b4c-8bad-f8df1dc6db96",
+											"fieldParent": "ae1c2e52-7b2b-4aa9-c55b-f6f7bb6f91aa",
 											"fieldType": "sap.m.Text",
 											"script": "",
 											"customComponent": false,
@@ -190,7 +116,7 @@
 												{
 													"attribute": "text",
 													"grouping": "Properties",
-													"value": "Account ID",
+													"value": "accountid",
 													"script": "",
 													"translation": []
 												}
@@ -200,7 +126,7 @@
 									]
 								},
 								{
-									"fieldNo": "69cea7fa-f98d-4cda-f245-45887e5bbac8",
+									"fieldNo": "6b11954f-49b1-4404-fed0-332ce210ce1d",
 									"fieldName": "coltabAccountsname",
 									"fieldParent": "7e3ed3a5-2550-48ed-f90d-bf24acbe8be1",
 									"fieldType": "sap.m.Column",
@@ -211,9 +137,9 @@
 									"attributes": [],
 									"data": [
 										{
-											"fieldNo": "64baf8e2-bece-4e11-dd74-9a004219fcf2",
+											"fieldNo": "7cc89d23-cfb3-4c9f-d517-128bc7c38335",
 											"fieldName": "colHtabAccountsname",
-											"fieldParent": "69cea7fa-f98d-4cda-f245-45887e5bbac8",
+											"fieldParent": "6b11954f-49b1-4404-fed0-332ce210ce1d",
 											"fieldType": "sap.m.Text",
 											"script": "",
 											"customComponent": false,
@@ -223,7 +149,7 @@
 												{
 													"attribute": "text",
 													"grouping": "Properties",
-													"value": "Name",
+													"value": "name",
 													"script": "",
 													"translation": []
 												}
@@ -233,8 +159,8 @@
 									]
 								},
 								{
-									"fieldNo": "dcae8188-db9a-4188-8f02-6e227b353e81",
-									"fieldName": "coltabAccountstype",
+									"fieldNo": "89bc95b2-a712-439b-ae6d-f0dc9dbea43d",
+									"fieldName": "coltabAccountscountryText",
 									"fieldParent": "7e3ed3a5-2550-48ed-f90d-bf24acbe8be1",
 									"fieldType": "sap.m.Column",
 									"script": "",
@@ -244,9 +170,9 @@
 									"attributes": [],
 									"data": [
 										{
-											"fieldNo": "e664dd53-b3d1-4be7-e592-fa9eb3a8b850",
-											"fieldName": "colHtabAccountstype",
-											"fieldParent": "dcae8188-db9a-4188-8f02-6e227b353e81",
+											"fieldNo": "fa8c80dd-01e8-44f4-f496-2ebb080e0a88",
+											"fieldName": "colHtabAccountscountryText",
+											"fieldParent": "89bc95b2-a712-439b-ae6d-f0dc9dbea43d",
 											"fieldType": "sap.m.Text",
 											"script": "",
 											"customComponent": false,
@@ -256,7 +182,7 @@
 												{
 													"attribute": "text",
 													"grouping": "Properties",
-													"value": "Type",
+													"value": "countryText",
 													"script": "",
 													"translation": []
 												}
@@ -266,8 +192,8 @@
 									]
 								},
 								{
-									"fieldNo": "e70f016f-3fda-4f9e-b312-63dcb7f21ec8",
-									"fieldName": "coltabAccountsupdatedAt",
+									"fieldNo": "a0906642-db29-4d4d-9597-aaf830ba4300",
+									"fieldName": "coltabAccountstypeText",
 									"fieldParent": "7e3ed3a5-2550-48ed-f90d-bf24acbe8be1",
 									"fieldType": "sap.m.Column",
 									"script": "",
@@ -277,9 +203,9 @@
 									"attributes": [],
 									"data": [
 										{
-											"fieldNo": "1fb72d20-aca7-46fc-b622-13978095b6f5",
-											"fieldName": "colHtabAccountsupdatedAt",
-											"fieldParent": "e70f016f-3fda-4f9e-b312-63dcb7f21ec8",
+											"fieldNo": "0b10d3c0-ade3-4bbb-fb54-23d6a1148255",
+											"fieldName": "colHtabAccountstypeText",
+											"fieldParent": "a0906642-db29-4d4d-9597-aaf830ba4300",
 											"fieldType": "sap.m.Text",
 											"script": "",
 											"customComponent": false,
@@ -289,7 +215,7 @@
 												{
 													"attribute": "text",
 													"grouping": "Properties",
-													"value": "Updated At",
+													"value": "typeText",
 													"script": "",
 													"translation": []
 												}
@@ -299,40 +225,7 @@
 									]
 								},
 								{
-									"fieldNo": "ab62dc65-0968-4262-bf90-9fb8a762f8f7",
-									"fieldName": "coltabAccountsupdatedBy",
-									"fieldParent": "7e3ed3a5-2550-48ed-f90d-bf24acbe8be1",
-									"fieldType": "sap.m.Column",
-									"script": "",
-									"customComponent": false,
-									"request": [],
-									"response": [],
-									"attributes": [],
-									"data": [
-										{
-											"fieldNo": "4b0f41f3-5802-4efb-c6fb-b7f090f55bc3",
-											"fieldName": "colHtabAccountsupdatedBy",
-											"fieldParent": "ab62dc65-0968-4262-bf90-9fb8a762f8f7",
-											"fieldType": "sap.m.Text",
-											"script": "",
-											"customComponent": false,
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Updated By",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										}
-									]
-								},
-								{
-									"fieldNo": "6a4f85a6-c0d1-43de-879b-df80106aeeca",
+									"fieldNo": "a059f26c-208f-40f9-b8e1-6edb889c92cb",
 									"fieldName": "colItemtabAccounts",
 									"fieldParent": "7e3ed3a5-2550-48ed-f90d-bf24acbe8be1",
 									"fieldType": "sap.m.ColumnListItem",
@@ -342,94 +235,26 @@
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "type",
-											"grouping": "Properties",
-											"value": "Active",
-											"script": "",
-											"translation": []
-										},
-										{
 											"attribute": "press",
 											"grouping": "Events",
 											"value": "Anonymous Function",
 											"script": [
 												"==OBJECT STRING==",
-												"const context = oEvent.oSource.getBindingContext();\r",
-												"const data = context.getObject();\r",
+												"// \r",
 												"\r",
-												"/**\r",
-												" * Name: CRM Server\r",
-												" * Description: \r",
-												" * \r",
-												" * Path: /AccountDetail\r",
-												" * Method: GET\r",
-												" * \r",
-												" * Parameters:\r",
-												" * id - Required parameter \r",
-												" * Description: \r",
-												" * Example: \r",
-												" * default: \r",
-												" * \r",
-												" */\r",
-												"var options = {\r",
-												"    parameters: {\r",
-												"        \"id\": data.id\r",
-												"    }\r",
-												"};\r",
 												"\r",
-												"apiDetail(options).then(function (res) {\r",
-												"    console.log(res)\r",
-												"    oApp.to(oPageDetail);\r",
-												"});"
+												"\r",
+												""
 											],
+											"language": "javascript",
 											"translation": []
 										}
 									],
 									"data": [
 										{
-											"fieldNo": "4fd226a2-dd7c-4c37-91fd-2558f3eb2818",
-											"fieldName": "txttabAccountsimage",
-											"fieldParent": "6a4f85a6-c0d1-43de-879b-df80106aeeca",
-											"fieldType": "sap.m.Image",
-											"script": "",
-											"customComponent": false,
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "src",
-													"grouping": "Properties",
-													"value": "{countryFlagUrl}",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "ae322dd1-3221-486d-df54-a0ec085927d0",
-											"fieldName": "txttabAccountscountry",
-											"fieldParent": "6a4f85a6-c0d1-43de-879b-df80106aeeca",
-											"fieldType": "sap.m.Text",
-											"script": "",
-											"customComponent": false,
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "{countryText}",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "b7351721-662c-4640-ae35-5c0dd71614af",
+											"fieldNo": "06549330-4b30-4c38-8c9f-9ee7d4938a91",
 											"fieldName": "txttabAccountsaccountid",
-											"fieldParent": "6a4f85a6-c0d1-43de-879b-df80106aeeca",
+											"fieldParent": "a059f26c-208f-40f9-b8e1-6edb889c92cb",
 											"fieldType": "sap.m.Text",
 											"script": "",
 											"customComponent": false,
@@ -447,9 +272,9 @@
 											"data": []
 										},
 										{
-											"fieldNo": "943041e7-c800-4b2e-bea8-bb1b95880467",
+											"fieldNo": "e64edd1f-d6ce-4aed-cf0b-a20328a9fc4f",
 											"fieldName": "txttabAccountsname",
-											"fieldParent": "6a4f85a6-c0d1-43de-879b-df80106aeeca",
+											"fieldParent": "a059f26c-208f-40f9-b8e1-6edb889c92cb",
 											"fieldType": "sap.m.Text",
 											"script": "",
 											"customComponent": false,
@@ -467,9 +292,29 @@
 											"data": []
 										},
 										{
-											"fieldNo": "699df6d7-487b-4990-feec-c1f6c380a969",
-											"fieldName": "txttabAccountstype",
-											"fieldParent": "6a4f85a6-c0d1-43de-879b-df80106aeeca",
+											"fieldNo": "2ae07cbb-b41b-4dae-f80a-3622cff9e1db",
+											"fieldName": "txttabAccountscountryText",
+											"fieldParent": "a059f26c-208f-40f9-b8e1-6edb889c92cb",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "{countryText}",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "9b58f2b4-56d8-45ca-d62c-083072596cb0",
+											"fieldName": "txttabAccountstypeText",
+											"fieldParent": "a059f26c-208f-40f9-b8e1-6edb889c92cb",
 											"fieldType": "sap.m.Text",
 											"script": "",
 											"customComponent": false,
@@ -480,53 +325,6 @@
 													"attribute": "text",
 													"grouping": "Properties",
 													"value": "{typeText}",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "c7886e0a-034d-45fc-b33c-7b748761e7cd",
-											"fieldName": "txttabAccountsupdatedAt",
-											"fieldParent": "6a4f85a6-c0d1-43de-879b-df80106aeeca",
-											"fieldType": "sap.m.Text",
-											"script": "",
-											"customComponent": false,
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "{updatedAt}",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "text",
-													"grouping": "Formatter",
-													"value": "date:BrowserSetting",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "3dc47925-7cf2-4947-fa37-c17be9d6f2a5",
-											"fieldName": "txttabAccountsupdatedBy",
-											"fieldParent": "6a4f85a6-c0d1-43de-879b-df80106aeeca",
-											"fieldType": "sap.m.Text",
-											"script": "",
-											"customComponent": false,
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "{updatedBy}",
 													"script": "",
 													"translation": []
 												}
@@ -1594,7 +1392,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "22.10.25.1022",
+	"ver": "22.10.27.1333",
 	"application": "crm_account_list",
 	"title": "CRM Account List",
 	"description": "CRM Account List",

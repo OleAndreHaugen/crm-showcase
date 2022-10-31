@@ -5,6 +5,7 @@
 	"extUserRoles": [],
 	"extUserDepartments": [],
 	"catOrder": [
+		"b59d62a8-c79d-41e6-ae04-326ca8c162b3",
 		"8221ec94-7ff2-450a-b4a2-fde2ba45d378"
 	],
 	"layout": [
@@ -20,6 +21,7 @@
 				"\r",
 				"*:focus {\r",
 				"    outline: none !important;\r",
+				"    border: none !important;\r",
 				"}\r",
 				"\r",
 				"html.sap-desktop .sapFDynamicPageTitle.sapFDynamicPageTitleFocus {\r",
@@ -57,7 +59,7 @@
 			"active": true,
 			"style": [
 				"==OBJECT STRING==",
-				"<style>.nepTopMenu { background: #29313a !important; }",
+				"<style>.nepTopMenu { background: #003e52 !important; }.nepTopMenuActive { border-bottom: 4px solid #f0af24 !important; }.nepTopMenu { border-bottom: 1px solid #2e3742 !important; }",
 				"            .nepTopMenu .sapMBtnCustomIcon { color: white !important; }",
 				"            .nepTopMenu .sapMBtnInner { color: white !important; text-shadow: none; }",
 				"            .nepTopMenu .sapMTBSeparator { background: white; }",
@@ -69,9 +71,9 @@
 				"            background-size: cover;",
 				"        }",
 				"    .nepCatTitle.sapMTitle { color: white; }.nepCatSubTitle.sapMTitle { color: white !important; }",
-				"            .nepLayout .nepMainBar { background: #1d232a; }",
-				"            .nepLayout .nepLaunchpadMenuSettings { background: #1d232a; }",
-				"        *,::after,::before {    outline: none !important;}*:focus {    outline: none !important;}html.sap-desktop .sapFDynamicPageTitle.sapFDynamicPageTitleFocus {    outline: none !important;}.nepCatTitle.sapMTitle {    font-family: \"72Black\";    font-size: 28px;}.nepCardDescription {    font-size: 16px;    cursor: pointer;}.sapFCard .sapFCardHeader .sapFCardHeaderText .sapFCardTitle {    font-family: \"72Black\";    font-size: 20px;    cursor: pointer;}.sapFCard .sapFCardHeader .sapFCardSubtitle {    font-family: \"72Black\";    font-size: 14px;}.sapFCardHeader:focus::before,.sapFGridContainer .sapFGridContainerItemWrapperNoVisualFocus:focus .sapFCardHeader::before,.sapFGridContainer .sapFGridContainerItemWrapperNoVisualFocus:focus .sapFCard.sapFCardNoHeader::before {    border: none;}</style>"
+				"            .nepLayout .nepMainBar { background: #003e52; }",
+				"            .nepLayout .nepLaunchpadMenuSettings { background: #003e52; }",
+				"        *,::after,::before {    outline: none !important;}*:focus {    outline: none !important;    border: none !important;}html.sap-desktop .sapFDynamicPageTitle.sapFDynamicPageTitleFocus {    outline: none !important;}.nepCatTitle.sapMTitle {    font-family: \"72Black\";    font-size: 28px;}.nepCardDescription {    font-size: 16px;    cursor: pointer;}.sapFCard .sapFCardHeader .sapFCardHeaderText .sapFCardTitle {    font-family: \"72Black\";    font-size: 20px;    cursor: pointer;}.sapFCard .sapFCardHeader .sapFCardSubtitle {    font-family: \"72Black\";    font-size: 14px;}.sapFCardHeader:focus::before,.sapFGridContainer .sapFGridContainerItemWrapperNoVisualFocus:focus .sapFCardHeader::before,.sapFGridContainer .sapFGridContainerItemWrapperNoVisualFocus:focus .sapFCard.sapFCardNoHeader::before {    border: none;}</style>"
 			],
 			"shellContentWidth": "XXLarge",
 			"pageBackgroundColor": "rgba(0, 0, 0, 0.45)",
@@ -81,16 +83,17 @@
 			"textTitleColor": "white",
 			"textSubTitleColor": "white",
 			"navBackgroundColor": "",
-			"menuBackgroundColor": "#1d232a",
-			"topBackgroundColor": "#29313a",
-			"topBorderColor": "",
+			"menuBackgroundColor": "#003e52",
+			"topBackgroundColor": "#003e52",
+			"topBorderColor": "#2e3742",
 			"topInvert": true,
-			"menuTextColor": ""
+			"menuTextColor": "",
+			"topActiveColor": "#f0af24"
 		}
 	],
 	"config": {
 		"enhancement": "",
-		"enableTopMenu": false,
+		"enableTopMenu": true,
 		"showAppTitle": true,
 		"verticalMenu": false,
 		"pincode": true,
@@ -179,7 +182,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "22.10.24.1916",
+	"ver": "22.10.31.1642",
 	"pwa_enable": false,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
@@ -192,10 +195,16 @@
 	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
 	"cat": [
 		{
+			"id": "b59d62a8-c79d-41e6-ae04-326ca8c162b3",
+			"name": "Salesforce",
+			"title": "Salesforce",
+			"ver": "22.10.30.1820"
+		},
+		{
 			"id": "8221ec94-7ff2-450a-b4a2-fde2ba45d378",
 			"name": "CRM",
 			"title": "CRM",
-			"ver": "22.10.24.1912"
+			"ver": "22.10.30.1820"
 		}
 	]
 }

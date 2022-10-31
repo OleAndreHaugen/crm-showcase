@@ -159,7 +159,8 @@
 				"name": "updatedAt",
 				"text": "Updated At",
 				"enableFilter": false,
-				"fieldPos": 7
+				"fieldPos": 7,
+				"formatter": "date01"
 			},
 			{
 				"filter": true,
@@ -246,7 +247,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.10.24.1914",
+	"ver": "22.10.30.1124",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_bi",
