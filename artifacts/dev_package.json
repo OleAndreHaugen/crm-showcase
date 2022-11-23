@@ -187,7 +187,7 @@
 			"id": "3d5e3139-4cce-4ac0-8db8-2cf95d117f2f",
 			"name": "crm_opportunity_child",
 			"description": "",
-			"application": "planet9_adaptive_list"
+			"application": "planet9_adaptive_tile_table"
 		},
 		{
 			"id": "3961099d-b524-43fa-9058-04220f801c75",
@@ -205,7 +205,7 @@
 			"id": "2460074d-5b67-471a-9398-01427a563809",
 			"name": "crm_contact_child",
 			"description": "",
-			"application": "planet9_adaptive_list"
+			"application": "planet9_adaptive_tile_table"
 		}
 	],
 	"api_authentication": [],
