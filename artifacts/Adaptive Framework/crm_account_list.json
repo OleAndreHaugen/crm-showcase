@@ -64,27 +64,55 @@
 				"enablePagination": true,
 				"paginationShowSelection": true,
 				"paginationRows": 25,
-				"action1Text": "",
-				"action1Type": "Transparent",
+				"action1Text": "MISSING",
+				"action1Type": "Attention",
 				"action2Text": "",
 				"action2Type": "Transparent",
 				"action3Text": "",
 				"action3Type": "Transparent",
 				"alternateRowColors": true,
 				"enableCompact": false,
-				"enableAction1": false,
+				"enableAction1": true,
 				"enableAction2": false,
 				"enableAction3": false,
 				"fixedLayout": true,
 				"inset": false,
 				"initialSortField": "name",
-				"showSeparators": "All"
+				"showSeparators": "All",
+				"enableAction4": false,
+				"enableAction5": false,
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent",
+				"action1VisibleFieldName": "street",
+				"action1VisibleCondition": "empty",
+				"action1VisibleInverse": false,
+				"action2VisibleCondition": "empty"
 			}
 		},
 		"fieldCatalog": [
 			{
 				"name": "accountid",
 				"label": "Account ID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "name",
+				"label": "Name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "street",
+				"label": "Street",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "zip",
+				"label": "ZIP",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -101,38 +129,14 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text",
+				"name": "type",
+				"label": "Type",
+				"type": "smallint",
 				"usage": "BOTH"
 			},
 			{
 				"name": "industry",
 				"label": "Industry ",
-				"type": "smallint",
-				"usage": "BOTH"
-			},
-			{
-				"name": "name",
-				"label": "Name",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "street",
-				"label": "Street",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "type",
-				"label": "Type",
 				"type": "smallint",
 				"usage": "BOTH"
 			},
@@ -143,14 +147,20 @@
 				"usage": "BOTH"
 			},
 			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
 				"name": "updatedBy",
 				"label": "Updated By",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "zip",
-				"label": "ZIP",
+				"name": "createdBy",
+				"label": "Created By",
 				"type": "text",
 				"usage": "BOTH"
 			}
@@ -164,9 +174,16 @@
 			},
 			{
 				"visible": true,
+				"name": "updatedBy",
+				"text": "Updated By",
+				"fieldPos": 2,
+				"sysvarValue": "UserName"
+			},
+			{
+				"visible": true,
 				"name": "country",
 				"text": "Country",
-				"fieldPos": 2,
+				"fieldPos": 3,
 				"type": "MultiSelectLookup",
 				"lookupTable": "crm_country",
 				"lookupFieldKey": "country",
@@ -177,9 +194,10 @@
 				"visible": true,
 				"name": "updatedAt",
 				"text": "Updated At",
-				"fieldPos": 3,
+				"fieldPos": 4,
 				"type": "DateRange",
-				"default": ""
+				"default": "",
+				"sysvarValue": ""
 			}
 		],
 		"fieldsRun": [
@@ -189,7 +207,7 @@
 				"visible": true,
 				"name": "country",
 				"text": "Country",
-				"fieldPos": 4,
+				"fieldPos": 5,
 				"type": "Image",
 				"lookupTable": "crm_country",
 				"lookupFieldKey": "country",
@@ -216,7 +234,7 @@
 				"visible": true,
 				"name": "name",
 				"text": "Name",
-				"fieldPos": 5,
+				"fieldPos": 6,
 				"type": "ObjectNumber",
 				"editable": true,
 				"numberUnitType": "",
@@ -231,7 +249,7 @@
 				"visible": true,
 				"name": "accountid",
 				"text": "ID",
-				"fieldPos": 6,
+				"fieldPos": 7,
 				"type": "",
 				"editable": true,
 				"width": "100px",
@@ -256,7 +274,7 @@
 				"visible": true,
 				"name": "street",
 				"text": "Street",
-				"fieldPos": 7
+				"fieldPos": 8
 			},
 			{
 				"enableFilter": false,
@@ -264,7 +282,7 @@
 				"visible": true,
 				"name": "type",
 				"text": "Type",
-				"fieldPos": 8,
+				"fieldPos": 9,
 				"valueType": "Lookup",
 				"valueLookup": {
 					"table": "crm_type",
@@ -286,7 +304,7 @@
 				"visible": true,
 				"name": "updatedAt",
 				"text": "Updated At",
-				"fieldPos": 9,
+				"fieldPos": 10,
 				"formatter": "date00",
 				"type": ""
 			},
@@ -296,7 +314,7 @@
 				"visible": true,
 				"name": "updatedBy",
 				"text": "Updated By",
-				"fieldPos": 10
+				"fieldPos": 11
 			}
 		],
 		"defaultVariant": {
@@ -318,7 +336,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.11.7.724",
+	"ver": "23.2.16.1548",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

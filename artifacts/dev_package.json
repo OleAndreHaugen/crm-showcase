@@ -8,9 +8,9 @@
 		"remote": "https://github.com/OleAndreHaugen/crm-showcase",
 		"path": "C:\\Planet9\\crm-showcase"
 	},
-	"name": "com.neptune.crmdemo",
+	"name": "neptunesoftware-demo-crm",
 	"description": "Mini-CRM",
-	"ver": "22.10.31.1712",
+	"ver": "23.2.17.112",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -327,5 +327,14 @@
 			"description": "Master Data - Stages"
 		}
 	],
-	"events": []
+	"events": [],
+	"media_library": [
+		{
+			"id": "eec696f6-f030-44f0-97fb-c9c302daf228",
+			"updatedAt": "2022-11-23T05:53:37.000Z",
+			"name": "crmdemo",
+			"parent": null,
+			"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e"
+		}
+	]
 }

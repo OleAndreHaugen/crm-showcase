@@ -35,7 +35,7 @@
 	"name": "MasterData",
 	"ver": "22.10.25.1021",
 	"description": null,
-	"content": "file:///content.script",
+	"content": "file:///content.js",
 	"useAsGlobalScript": false,
 	"transpiledContent": null,
 	"lastRunSuccessful": false,

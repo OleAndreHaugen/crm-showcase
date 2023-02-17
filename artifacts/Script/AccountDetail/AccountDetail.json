@@ -15,7 +15,7 @@
 	"name": "AccountDetail",
 	"ver": "22.10.25.833",
 	"description": null,
-	"content": "file:///content.script",
+	"content": "file:///content.js",
 	"useAsGlobalScript": false,
 	"transpiledContent": null,
 	"lastRunSuccessful": true,

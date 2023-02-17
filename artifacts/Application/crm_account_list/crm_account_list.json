@@ -238,7 +238,7 @@
 											"attribute": "press",
 											"grouping": "Events",
 											"value": "Anonymous Function",
-											"script": "file://event/sap.m.ColumnListItem/colItemtabAccounts/press.script",
+											"script": "file://event/sap.m.ColumnListItem/colItemtabAccounts/press.js",
 											"language": "javascript",
 											"translation": []
 										}
@@ -414,7 +414,7 @@
 													"attribute": "press",
 													"grouping": "Events",
 													"value": "Anonymous Function",
-													"script": "file://event/sap.m.Button/butCreate/press.script",
+													"script": "file://event/sap.m.Button/butCreate/press.js",
 													"language": "javascript",
 													"translation": []
 												}
@@ -1210,7 +1210,7 @@
 													"attribute": "press",
 													"grouping": "Events",
 													"value": "Anonymous Function",
-													"script": "file://event/sap.m.Button/butSave/press.script",
+													"script": "file://event/sap.m.Button/butSave/press.js",
 													"language": "javascript",
 													"translation": []
 												}
@@ -1395,6 +1395,7 @@
 	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": null,
@@ -1406,6 +1407,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [
 		{
 			"id": "c09e287a-2151-4a00-8fe7-018fa5113307",
