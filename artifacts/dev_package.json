@@ -52,6 +52,11 @@
 			"description": "CRM: Account"
 		},
 		{
+			"id": "a4a4003b-fc59-4fbf-89b9-8095b14add90",
+			"name": "crm_appointment_type",
+			"description": "CRM: Appointment Types (colors)"
+		},
+		{
 			"id": "a38a516e-4b52-4509-b535-d5a919e9ebdb",
 			"name": "crm_type",
 			"description": "CRM: Account Type"
@@ -60,6 +65,11 @@
 			"id": "9774916e-6979-46ee-a393-e173d2e2db2f",
 			"name": "crm_industry",
 			"description": "CRM: Industry"
+		},
+		{
+			"id": "91ab9765-2529-46eb-be20-c3d390dbafbe",
+			"name": "crm_appointment",
+			"description": "CRM: Appointment"
 		},
 		{
 			"id": "48986b3f-d383-4ede-8f5f-a7069a058796",
@@ -112,6 +122,12 @@
 			"application": "planet9_adaptive_edit"
 		},
 		{
+			"id": "e12f52ef-8c90-4a2b-a6e0-046df0729278",
+			"name": "crm_appointment_detail",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
 			"id": "cc73c51f-8a08-4f90-b556-9c1a9af85670",
 			"name": "crm_master_currency",
 			"description": "",
@@ -158,6 +174,12 @@
 			"name": "crm_account_edit",
 			"description": "",
 			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "6019cd6a-b3a8-458a-a4e6-642b3e8ed089",
+			"name": "crm_appointment_calendar",
+			"description": "",
+			"application": "planet9_adaptive_calendar"
 		},
 		{
 			"id": "540bdd98-6447-4029-9d66-d0fcb15c351f",
@@ -238,6 +260,11 @@
 			"name": "CRM: Countries"
 		},
 		{
+			"id": "81b0cd18-db52-424e-b120-9e826e825826",
+			"description": null,
+			"name": "CRM: Appointments"
+		},
+		{
 			"id": "6ab0dd8f-244b-44aa-a307-119dbc458cbb",
 			"description": null,
 			"name": "CRM: Opportunity"
@@ -292,6 +319,11 @@
 			"description": "Master Data - Currency"
 		},
 		{
+			"id": "cbdd56c9-2b22-475a-bb58-191aa81678e4",
+			"name": "CRM Appointments",
+			"description": "Appointments"
+		},
+		{
 			"id": "c75fe2a7-c587-4f46-b0d6-c56697f7d146",
 			"name": "CRM Opportunity",
 			"description": "Opportunity"
@@ -336,5 +368,8 @@
 			"parent": null,
 			"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e"
 		}
-	]
+	],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
 }

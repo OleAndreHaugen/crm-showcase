@@ -51,7 +51,7 @@
 	"foreignKeys": [],
 	"name": "crm_opportunity",
 	"description": "CRM: Opportunity",
-	"ver": "22.10.25.947",
+	"ver": "23.2.24.1632",
 	"enableAudit": true,
 	"includeDataInPackage": false,
 	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",

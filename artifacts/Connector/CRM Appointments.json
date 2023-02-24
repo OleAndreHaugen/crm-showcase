@@ -1,0 +1,17 @@
+{
+	"id": "cbdd56c9-2b22-475a-bb58-191aa81678e4",
+	"createdAt": "2023-02-24T15:38:43.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"tableid": "91ab9765-2529-46eb-be20-c3d390dbafbe",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "CRM Appointments",
+	"description": "Appointments",
+	"group": null,
+	"type": "T",
+	"ver": "23.2.24.1639",
+	"disabled": false,
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e"
+}

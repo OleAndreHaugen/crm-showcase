@@ -1,11 +1,12 @@
 {
-	"id": "b8a128c2-e75e-448c-815c-fd25d1faf9c2",
-	"createdAt": "2022-03-13T09:09:31.000Z",
+	"id": "e12f52ef-8c90-4a2b-a6e0-046df0729278",
+	"createdAt": "2023-02-24T15:39:50.000Z",
 	"createdBy": "ole-andre.haugen@neptune-software.com",
 	"settings": {
 		"properties": {
 			"report": {
 				"showIcon": true,
+				"actionButtonLeft": false,
 				"iconButtonClose": "",
 				"textButtonClose": "Close",
 				"typeButtonClose": "Transparent",
@@ -13,23 +14,6 @@
 				"textButtonSave": "Save",
 				"textToastSave": "Saved",
 				"typeButtonSave": "Emphasized",
-				"tab0Text": "General",
-				"tab1Text": "Tab 1",
-				"tab2Text": "Tab 2",
-				"tab3Text": "Tab 3",
-				"tab4Text": "Tab 4",
-				"tab5Text": "Tab 5",
-				"enableClose": true,
-				"enableSave": true,
-				"enableTab1": false,
-				"enableTab2": false,
-				"enableTab3": false,
-				"enableTab4": false,
-				"enableTab5": false,
-				"title": "Opportunity",
-				"avatarIcon": "sap-icon://opportunities",
-				"subTitle": "Maintain",
-				"actionButtonLeft": false,
 				"iconButtonDelete": "",
 				"textButtonDelete": "Delete",
 				"textToastDelete": "Deleted",
@@ -37,20 +21,34 @@
 				"iconButtonAttachment": "",
 				"textButtonAttachment": "Add Attachment",
 				"typeButtonAttachment": "Transparent",
+				"tab0Text": "General",
 				"tabAText": "Attachment",
-				"enableDelete": false,
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableDelete": true,
 				"enableAttachment": false,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
 				"enableUppercase": false,
-				"enablePadding": true
+				"enablePadding": true,
+				"title": "Appointment",
+				"avatarIcon": "sap-icon://calendar"
 			},
 			"form": {
 				"enableCompact": false,
-				"enableCentered": true,
-				"titleLevel": "H3",
-				"columnsL": "2",
-				"columnsM": "1",
+				"enableCentered": false,
 				"labelSpanL": "12",
-				"labelSpanM": "12"
+				"labelSpanM": "12",
+				"columnsL": "2",
+				"columnsM": "2"
 			},
 			"table": {}
 		},
@@ -58,12 +56,18 @@
 			{
 				"name": "accountid",
 				"label": "Account ID",
-				"type": "text",
+				"type": "smalltext",
 				"usage": "BOTH"
 			},
 			{
-				"name": "name",
-				"label": "Name",
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -74,21 +78,39 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "value",
-				"label": "Value",
-				"type": "decimal",
+				"name": "enddate",
+				"label": "End Date",
+				"type": "timestamptz",
 				"usage": "BOTH"
 			},
 			{
-				"name": "currency",
-				"label": "Currency",
-				"type": "text",
+				"name": "fullday",
+				"label": "Full Day",
+				"type": "boolean",
 				"usage": "BOTH"
 			},
 			{
-				"name": "stage",
-				"label": "Stage",
-				"type": "smallint",
+				"name": "startdate",
+				"label": "Start Date",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "tentativ",
+				"label": "Tentativ",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "title",
+				"label": "Title",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "type",
+				"label": "Type (Color)",
+				"type": "smalltext",
 				"usage": "BOTH"
 			},
 			{
@@ -98,108 +120,115 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
 				"name": "updatedBy",
 				"label": "Updated By",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
 				"type": "text",
 				"usage": "BOTH"
 			}
 		],
 		"fieldsSel": [
 			{
-				"editable": false,
+				"editable": true,
 				"visible": true,
 				"name": "accountid",
 				"text": "Account ID",
 				"fieldPos": 1,
+				"columnLabel": "General",
 				"type": "SingleSelectLookup",
 				"lookupTable": "crm_account",
 				"lookupFieldKey": "accountid",
 				"lookupFieldText": "name",
-				"required": true,
-				"columnLabel": "General",
-				"lookupShowOnlyText": true
+				"lookupShowOnlyText": true,
+				"required": true
 			},
 			{
 				"editable": true,
 				"visible": true,
-				"name": "name",
-				"text": "Name",
+				"name": "title",
+				"text": "Title",
 				"fieldPos": 2,
 				"required": true
 			},
 			{
 				"editable": true,
 				"visible": true,
-				"name": "stage",
-				"text": "Stage",
-				"fieldPos": 3,
-				"type": "SingleSelectLookup",
-				"lookupTable": "crm_stage",
-				"lookupFieldKey": "stage",
-				"lookupFieldText": "name",
-				"lookupShowOnlyText": false
-			},
-			{
-				"editable": true,
-				"visible": true,
 				"name": "description",
 				"text": "Description",
-				"fieldPos": 4,
-				"columnLabel": "",
+				"fieldPos": 3,
 				"type": "TextArea",
-				"textAreaRows": "4"
+				"textAreaRows": "7"
 			},
 			{
 				"editable": true,
 				"visible": true,
-				"name": "value",
-				"text": "Value",
+				"name": "startdate",
+				"text": "Start Date",
+				"fieldPos": 4,
+				"type": "DateTimePicker",
+				"required": true,
+				"columnLabel": "Appointment"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "enddate",
+				"text": "End Date",
 				"fieldPos": 5,
-				"columnLabel": "Amount"
+				"type": "DateTimePicker",
+				"required": true
 			},
 			{
 				"editable": true,
 				"visible": true,
-				"name": "currency",
-				"text": "Currency",
+				"name": "type",
+				"text": "Type (Color)",
 				"fieldPos": 6,
+				"columnLabel": "",
 				"type": "SingleSelectLookup",
-				"lookupTable": "crm_currency",
-				"lookupFieldKey": "currency",
-				"lookupFieldText": "name"
+				"lookupTable": "crm_appointment_type",
+				"lookupFieldKey": "name",
+				"lookupFieldText": "name",
+				"lookupShowOnlyText": true
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "tentativ",
+				"text": "Tentativ",
+				"fieldPos": 7,
+				"type": "CheckBox"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "fullday",
+				"text": "Full Day",
+				"fieldPos": 8,
+				"type": "CheckBox"
 			},
 			{
 				"editable": false,
 				"visible": true,
 				"name": "updatedAt",
 				"text": "Updated At",
-				"fieldPos": 7,
+				"fieldPos": 9,
+				"type": "DateTimePicker",
 				"columnLabel": "Dates",
-				"type": "DateTimePicker"
+				"enableNewForm": true,
+				"labelSpanL": "12",
+				"labelSpanM": "12"
 			},
 			{
 				"editable": false,
 				"visible": true,
 				"name": "updatedBy",
 				"text": "Updated By",
-				"fieldPos": 8
+				"fieldPos": 10
 			}
 		],
 		"fieldsRun": [],
 		"defaultVariant": {
-			"id": "f0cfa063-3de5-4b90-81ad-de7a14638817",
+			"id": "53925c1b-817f-402f-c6ae-61bdec305603",
 			"colOrder": "key_a_to_z",
 			"rowOrder": "key_a_to_z",
 			"row": [],
@@ -209,15 +238,15 @@
 			"exclusions": {}
 		}
 	},
-	"name": "crm_opportunity_edit",
+	"name": "crm_appointment_detail",
 	"description": "",
 	"group": "",
 	"type": "C",
-	"connectorid": "c75fe2a7-c587-4f46-b0d6-c56697f7d146",
+	"connectorid": "cbdd56c9-2b22-475a-bb58-191aa81678e4",
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.2.24.1632",
+	"ver": "23.2.24.1855",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",

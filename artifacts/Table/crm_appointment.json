@@ -1,0 +1,81 @@
+{
+	"id": "91ab9765-2529-46eb-be20-c3d390dbafbe",
+	"createdAt": "2023-02-24T15:35:46.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "e46d4513-0df6-4d60-ad25-9a856fce1397",
+			"fieldName": "accountid",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Account ID",
+			"isNullable": true
+		},
+		{
+			"id": "3995d959-eaeb-45b5-dbc4-19e0165f0f6d",
+			"fieldName": "title",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Title",
+			"isNullable": true
+		},
+		{
+			"id": "b9d52833-76a5-45fe-8e2c-dbc59854c854",
+			"fieldName": "description",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Description",
+			"isNullable": true
+		},
+		{
+			"id": "1a3e5e16-e4ae-4d6b-85cf-fd7ccaec424c",
+			"fieldName": "startdate",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"description": "Start Date",
+			"isNullable": true
+		},
+		{
+			"id": "59932914-e035-4821-a521-c43e21bd6538",
+			"fieldName": "enddate",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"description": "End Date",
+			"isNullable": true
+		},
+		{
+			"id": "660016c1-d7ac-44cc-d6f6-16ada7747d85",
+			"fieldName": "tentativ",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Tentativ"
+		},
+		{
+			"id": "2f823493-bfec-4ba1-eb30-044a066b3c9e",
+			"fieldName": "type",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Type (Color)",
+			"isNullable": true
+		},
+		{
+			"id": "790affcf-11a4-4f91-f3c6-7057e6bfac40",
+			"fieldName": "fullday",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"description": "Full Day",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "crm_appointment",
+	"description": "CRM: Appointment",
+	"ver": "23.2.24.1637",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

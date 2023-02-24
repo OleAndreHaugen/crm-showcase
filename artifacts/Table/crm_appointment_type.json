@@ -1,0 +1,25 @@
+{
+	"id": "a4a4003b-fc59-4fbf-89b9-8095b14add90",
+	"createdAt": "2023-02-24T17:48:50.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "b96e3136-9e71-4423-863e-aea58ef49c5c",
+			"fieldName": "name",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Name",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "crm_appointment_type",
+	"description": "CRM: Appointment Types (colors)",
+	"ver": "23.2.24.1850",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

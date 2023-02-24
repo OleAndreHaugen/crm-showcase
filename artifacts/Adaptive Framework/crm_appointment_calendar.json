@@ -1,0 +1,240 @@
+{
+	"id": "6019cd6a-b3a8-458a-a4e6-642b3e8ed089",
+	"createdAt": "2023-02-24T15:49:29.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": true,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "e12f52ef-8c90-4a2b-a6e0-046df0729278",
+					"keyField": [
+						{
+							"fieldName": "enddate",
+							"key": "enddate",
+							"value": ""
+						},
+						{
+							"fieldName": "startdate",
+							"key": "startdate",
+							"value": ""
+						}
+					]
+				},
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "e12f52ef-8c90-4a2b-a6e0-046df0729278",
+					"keyField": []
+				},
+				"title": "Appointments"
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true
+			},
+			"table": {
+				"enableWeekView": true,
+				"enableWorkWeekView": false,
+				"enableDayView": true,
+				"enableMonthView": true,
+				"enableDnD": true,
+				"enableResize": true
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "accountid",
+				"label": "Account ID",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "title",
+				"label": "Title",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "description",
+				"label": "Description",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "startdate",
+				"label": "Start Date",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "enddate",
+				"label": "End Date",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "tentativ",
+				"label": "Tentativ",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "type",
+				"label": "Type (Color)",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "fullday",
+				"label": "Full Day",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "accountid",
+				"text": "Account ID",
+				"fieldPos": 1,
+				"type": "MultiSelectLookup",
+				"lookupTable": "crm_account",
+				"lookupFieldKey": "accountid",
+				"lookupFieldText": "name",
+				"lookupShowOnlyText": true
+			}
+		],
+		"fieldsRun": [
+			{
+				"name": "title",
+				"text": "Title",
+				"fieldPos": 2,
+				"type": "title"
+			},
+			{
+				"name": "startdate",
+				"text": "Start Date",
+				"enableFilter": false,
+				"fieldPos": 3,
+				"type": "startDate"
+			},
+			{
+				"name": "enddate",
+				"text": "End Date",
+				"enableFilter": false,
+				"fieldPos": 4,
+				"type": "endDate"
+			},
+			{
+				"name": "tentativ",
+				"text": "Tentativ",
+				"enableFilter": false,
+				"fieldPos": 5,
+				"type": "tentative"
+			},
+			{
+				"name": "accountid",
+				"text": "Account ID",
+				"fieldPos": 6,
+				"type": "text",
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "crm_account",
+					"textField": "name",
+					"keyField": [
+						{
+							"fieldName": "accountid",
+							"key": "accountid",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				}
+			},
+			{
+				"name": "description",
+				"text": "Description",
+				"fieldPos": 7,
+				"type": "description"
+			},
+			{
+				"name": "type",
+				"text": "Type (Color)",
+				"fieldPos": 8,
+				"type": "type"
+			}
+		],
+		"defaultVariant": {
+			"id": "e6315d79-9e36-4910-9fa1-1878fc254a36",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "crm_appointment_calendar",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "cbdd56c9-2b22-475a-bb58-191aa81678e4",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.2.24.1913",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_calendar",
+	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

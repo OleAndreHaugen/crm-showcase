@@ -67,13 +67,21 @@
 				"enableAttachment": true,
 				"tabAttachmentText": "Attachment",
 				"enableUppercase": true,
-				"enablePadding": true
+				"enablePadding": false,
+				"dynamicSubTitle": "name",
+				"avatarIcon": "sap-icon://account",
+				"enableIconTabBar": false
 			},
 			"form": {
 				"enableCompact": false,
-				"enableCentered": true,
+				"enableCentered": false,
 				"titleLevel": "H3",
-				"labelDesign": "Standard"
+				"labelDesign": "Standard",
+				"columnsL": "2",
+				"columnsM": "2",
+				"formLayout": "ColumnLayout",
+				"labelSpanL": "12",
+				"labelSpanM": "12"
 			},
 			"table": {}
 		},
@@ -282,7 +290,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.11.7.822",
+	"ver": "23.2.22.1033",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",

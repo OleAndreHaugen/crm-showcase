@@ -91,7 +91,13 @@
 				"fixedLayout": true,
 				"inset": false,
 				"showSeparators": "All",
-				"initialGroupField": ""
+				"initialGroupField": "",
+				"enableAction4": false,
+				"enableAction5": false,
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
 			}
 		},
 		"fieldCatalog": [
@@ -307,7 +313,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.11.7.85",
+	"ver": "23.2.17.134",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_tile_table",

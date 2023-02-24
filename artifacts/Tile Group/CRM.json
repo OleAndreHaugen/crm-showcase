@@ -6,7 +6,8 @@
 	"tilesOrder": [
 		"465b91b2-4b52-4c63-926a-070e3930ee1a",
 		"6ab0dd8f-244b-44aa-a307-119dbc458cbb",
-		"2a0175b8-52cd-46cf-8acd-f2cce3151d26"
+		"2a0175b8-52cd-46cf-8acd-f2cce3151d26",
+		"81b0cd18-db52-424e-b120-9e826e825826"
 	],
 	"tilegroupsOrder": [
 		"eb8bd68b-cfe8-448c-94ef-66dea60d5471"
@@ -31,7 +32,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "22.10.30.1820",
+	"ver": "23.2.24.1851",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -66,6 +67,12 @@
 	"package": "8d4579a1-5859-41ba-b61b-fe5647fa7a4e",
 	"roles": [],
 	"tiles": [
+		{
+			"id": "81b0cd18-db52-424e-b120-9e826e825826",
+			"name": "CRM: Appointments",
+			"title": "Appointments",
+			"ver": "23.2.24.1924"
+		},
 		{
 			"id": "6ab0dd8f-244b-44aa-a307-119dbc458cbb",
 			"name": "CRM: Opportunity",

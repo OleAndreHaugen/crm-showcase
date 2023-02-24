@@ -72,7 +72,7 @@
 				"action3Type": "Transparent",
 				"alternateRowColors": true,
 				"enableCompact": false,
-				"enableAction1": true,
+				"enableAction1": false,
 				"enableAction2": false,
 				"enableAction3": false,
 				"fixedLayout": true,
@@ -177,7 +177,7 @@
 				"name": "updatedBy",
 				"text": "Updated By",
 				"fieldPos": 2,
-				"sysvarValue": "UserName"
+				"sysvarValue": ""
 			},
 			{
 				"visible": true,
@@ -188,7 +188,15 @@
 				"lookupTable": "crm_country",
 				"lookupFieldKey": "country",
 				"lookupFieldText": "name",
-				"lookupShowOnlyText": true
+				"lookupShowOnlyText": true,
+				"_navigation": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "4d47bc5b-0b97-4e4e-860a-04951477bd43",
+					"keyField": []
+				},
+				"valueRequestKey": "accountid"
 			},
 			{
 				"visible": true,
@@ -336,7 +344,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.2.16.1548",
+	"ver": "23.2.22.1652",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

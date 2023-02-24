@@ -1,0 +1,178 @@
+[
+	{
+		"id": "f4f9918c-b5f1-482e-88c7-9383837636f3",
+		"createdAt": "1677261010428",
+		"updatedAt": "1677261010428",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type20"
+	},
+	{
+		"id": "edb8c1ee-0bf2-4ba3-9583-d8f1e290adcd",
+		"createdAt": "1677260995125",
+		"updatedAt": "1677260995125",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type04"
+	},
+	{
+		"id": "dae72826-a4c6-4d7b-a766-86647899b185",
+		"createdAt": "1677260995125",
+		"updatedAt": "1677260995125",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "None"
+	},
+	{
+		"id": "d0f613db-28fb-4d65-aad7-02d2d749d1d7",
+		"createdAt": "1677260995125",
+		"updatedAt": "1677260995125",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type13"
+	},
+	{
+		"id": "cb8a58f3-c13f-474b-9e95-9db27a1cd9be",
+		"createdAt": "1677260995125",
+		"updatedAt": "1677260995125",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type11"
+	},
+	{
+		"id": "b7634da3-5a46-45a7-8abc-f26173384353",
+		"createdAt": "1677260995125",
+		"updatedAt": "1677260995125",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type05"
+	},
+	{
+		"id": "af1bccd7-785a-427f-bc1c-1c1a2094abc9",
+		"createdAt": "1677261010428",
+		"updatedAt": "1677261010428",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type17"
+	},
+	{
+		"id": "a55fb212-b068-4de1-8b2b-5c7d3b2c105c",
+		"createdAt": "1677260995125",
+		"updatedAt": "1677260995125",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type10"
+	},
+	{
+		"id": "99cfb33d-3ac1-4bd6-b4dd-08ff7a5fc114",
+		"createdAt": "1677261010428",
+		"updatedAt": "1677261010428",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type18"
+	},
+	{
+		"id": "6a88fcd1-464c-4c92-bbf7-5fe2e9205997",
+		"createdAt": "1677260995125",
+		"updatedAt": "1677260995125",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type16"
+	},
+	{
+		"id": "6294738c-375f-43e4-a9b6-e3e1b37d99c9",
+		"createdAt": "1677260995125",
+		"updatedAt": "1677260995125",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type09"
+	},
+	{
+		"id": "5b95df7b-8b32-4019-bedb-e5db91b2f7e2",
+		"createdAt": "1677260995125",
+		"updatedAt": "1677260995125",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type07"
+	},
+	{
+		"id": "59aca712-65cb-45b7-a12b-557cec90f5aa",
+		"createdAt": "1677261010428",
+		"updatedAt": "1677261010428",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type19"
+	},
+	{
+		"id": "53df6ad2-6a88-4658-a5b3-bcb91695fa82",
+		"createdAt": "1677260995125",
+		"updatedAt": "1677260995125",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type03"
+	},
+	{
+		"id": "50ef80b4-338d-41b6-acc0-3152c8d555d3",
+		"createdAt": "1677260995125",
+		"updatedAt": "1677260995125",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type12"
+	},
+	{
+		"id": "3f83f157-0ef8-4835-9f75-37390556f6e2",
+		"createdAt": "1677260995125",
+		"updatedAt": "1677260995125",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type15"
+	},
+	{
+		"id": "38e578ad-8ab3-473f-8776-bfac5f504d46",
+		"createdAt": "1677260995125",
+		"updatedAt": "1677260995125",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type06"
+	},
+	{
+		"id": "3292ec66-a10c-48ad-ba68-3f18a0a533ff",
+		"createdAt": "1677260995125",
+		"updatedAt": "1677260995125",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type02"
+	},
+	{
+		"id": "2706e955-edbf-4ea1-a6b1-902d4a0fb666",
+		"createdAt": "1677260995125",
+		"updatedAt": "1677260995125",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "NonWorking"
+	},
+	{
+		"id": "23cb532c-483d-4460-ae92-2fd8cc600b28",
+		"createdAt": "1677260995125",
+		"updatedAt": "1677260995125",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type01"
+	},
+	{
+		"id": "2393914f-f1d3-4bed-987c-bf014118efc3",
+		"createdAt": "1677260995125",
+		"updatedAt": "1677260995125",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type08"
+	},
+	{
+		"id": "1d4fbbb5-27ff-4eb5-ac78-ff2e39e5a476",
+		"createdAt": "1677260995125",
+		"updatedAt": "1677260995125",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Type14"
+	}
+]

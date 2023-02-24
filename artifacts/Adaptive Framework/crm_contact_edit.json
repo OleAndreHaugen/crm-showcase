@@ -28,7 +28,20 @@
 				"enableTab5": false,
 				"title": "Contact",
 				"subTitle": "Maintain",
-				"avatarIcon": "sap-icon://contacts"
+				"avatarIcon": "sap-icon://contacts",
+				"actionButtonLeft": false,
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tabAText": "Attachment",
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableUppercase": false,
+				"enablePadding": true
 			},
 			"form": {
 				"enableCompact": false,
@@ -44,13 +57,18 @@
 				"type": "text"
 			},
 			{
-				"name": "name",
-				"label": "Name",
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
 				"type": "text"
 			},
 			{
-				"name": "email",
-				"label": "eMail",
+				"name": "name",
+				"label": "Name",
 				"type": "text"
 			},
 			{
@@ -64,24 +82,19 @@
 				"type": "timestamp"
 			},
 			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp"
-			},
-			{
 				"name": "updatedBy",
 				"label": "Updated By",
 				"type": "text"
 			},
 			{
-				"name": "createdBy",
-				"label": "Created By",
+				"name": "email",
+				"label": "eMail",
 				"type": "text"
 			}
 		],
 		"fieldsSel": [
 			{
-				"editable": true,
+				"editable": false,
 				"visible": true,
 				"name": "accountid",
 				"text": "Account ID",
@@ -153,7 +166,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.10.24.1913",
+	"ver": "23.2.17.135",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",

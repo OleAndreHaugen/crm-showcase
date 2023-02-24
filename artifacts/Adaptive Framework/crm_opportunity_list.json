@@ -53,7 +53,8 @@
 					"butType": "Accept",
 					"destinationTargetF": "b8a128c2-e75e-448c-815c-fd25d1faf9c2",
 					"keyField": []
-				}
+				},
+				"actionButtonLeft": false
 			},
 			"form": {
 				"enableCompact": false,
@@ -76,59 +77,81 @@
 				"enableAction3": false,
 				"fixedLayout": true,
 				"inset": false,
-				"showSeparators": "All"
+				"showSeparators": "All",
+				"enableAction4": false,
+				"enableAction5": false,
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent",
+				"enableWeekView": true,
+				"enableWorkWeekView": true,
+				"enableDayView": false,
+				"enableMonthView": true,
+				"enableDnD": false,
+				"enableResize": false
 			}
 		},
 		"fieldCatalog": [
 			{
 				"name": "accountid",
 				"label": "Account ID",
-				"type": "text"
-			},
-			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text"
-			},
-			{
-				"name": "currency",
-				"label": "Currency",
-				"type": "text"
-			},
-			{
-				"name": "description",
-				"label": "Description",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "name",
 				"label": "Name",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
-				"name": "stage",
-				"label": "Stage",
-				"type": "smallint"
-			},
-			{
-				"name": "updatedAt",
-				"label": "Updated At",
-				"type": "timestamp"
-			},
-			{
-				"name": "updatedBy",
-				"label": "Updated By",
-				"type": "text"
+				"name": "description",
+				"label": "Description",
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "value",
 				"label": "Value",
-				"type": "decimal"
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "currency",
+				"label": "Currency",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "stage",
+				"label": "Stage",
+				"type": "smallint",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
 			}
 		],
 		"fieldsSel": [
@@ -304,7 +327,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.10.25.912",
+	"ver": "23.2.24.1632",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",
