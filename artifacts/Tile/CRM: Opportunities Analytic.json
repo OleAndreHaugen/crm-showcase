@@ -10,7 +10,7 @@
 			"idTile": "540bdd98-6447-4029-9d66-d0fcb15c351f"
 		}
 	},
-	"title": " Opportunities",
+	"title": "Opportunities",
 	"subTitle": "Analytic",
 	"description": "",
 	"categoryID": null,
@@ -61,7 +61,7 @@
 	"helpText": null,
 	"helpEnabled": false,
 	"openClickTile": true,
-	"ver": "22.11.23.654",
+	"ver": "23.2.26.1042",
 	"actionWebApp": "",
 	"name": "CRM: Opportunities Analytic",
 	"cardWidth": "Medium",

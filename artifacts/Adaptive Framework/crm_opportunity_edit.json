@@ -62,8 +62,20 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "name",
-				"label": "Name",
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "currency",
+				"label": "Currency",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -74,14 +86,8 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "value",
-				"label": "Value",
-				"type": "decimal",
-				"usage": "BOTH"
-			},
-			{
-				"name": "currency",
-				"label": "Currency",
+				"name": "name",
+				"label": "Name",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -98,27 +104,21 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
 				"name": "updatedBy",
 				"label": "Updated By",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text",
+				"name": "value",
+				"label": "Value",
+				"type": "decimal",
 				"usage": "BOTH"
 			}
 		],
 		"fieldsSel": [
 			{
-				"editable": false,
+				"editable": true,
 				"visible": true,
 				"name": "accountid",
 				"text": "Account ID",
@@ -217,7 +217,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.2.24.1632",
+	"ver": "23.2.26.1428",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",
